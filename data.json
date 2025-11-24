@@ -1,0 +1,314 @@
+[
+    {
+        "nome": "Java Script",
+        "ano": "1995 - Brendan Eich :",
+        "descrição": "Linguagem de programação da web",
+        "caracteristicas": "O JavaScript é a linguagem central da web, sendo responsável por transformar páginas estáticas em experiências interativas e dinâmicas. Ele permite criar desde pequenas animações e validações simples até aplicações completas e complexas que funcionam diretamente no navegador. Sua tipagem dinâmica e sintaxe flexível oferecem ao desenvolvedor um ambiente altamente adaptável, onde é possível experimentar diferentes abordagens e construir soluções criativas com facilidade. Além disso, seu vasto ecossistema de bibliotecas e frameworks — como React, Node.js, Vue e muitos outros — amplia de forma impressionante o que pode ser desenvolvido, desde interfaces ricas até servidores robustos. Com tantas ferramentas, possibilidades e uma comunidade ativa que cresce continuamente, o JavaScript se destaca como uma das linguagens mais poderosas, versáteis e indispensáveis do mundo da programação moderna.",
+        "sobre": "https://www.w3schools.com/js/js_htmldom_document.asp",
+        "img": "https://upload.wikimedia.org/wikipedia/commons/a/a4/JavaScript_code.png",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/500px-JavaScript-logo.png",
+        "historia":"JavaScript surgiu em 1995, criado por Brendan Eich enquanto trabalhava na Netscape. Inicialmente chamado de Mocha e depois LiveScript, ele foi renomeado para JavaScript por motivos de marketing, embora não tenha relação direta com a linguagem Java. Seu objetivo era permitir que páginas da web fossem interativas, algo revolucionário na época. Com o passar dos anos, tornou-se uma das linguagens mais importantes do mundo, evoluindo por meio do padrão ECMAScript e conquistando espaço fora dos navegadores, como no servidor através do Node.js, consolidando-se como uma linguagem essencial para a web moderna."
+    },
+    {
+        "nome": "Python",
+        "ano": "1991 - Guido van Rossum",
+        "descrição": "Linguagem da ciencia de dados e ia",
+        "caracteristicas": "Python é uma linguagem de programação de alto nível, interpretada, de uso geral, conhecida pela sua simplicidade, legibilidade e versatilidade. Suas características incluem: ser uma linguagem de alto nível que abstrai complexidades de hardware e memória; ser interpretada, permitindo um ciclo de desenvolvimento rápido e portabilidade; e ser de propósito geral, aplicável em desenvolvimento web, ciência de dados, IA, automação e muito mais. Python é dinamicamente tipada, fortemente tipada, e suporta múltiplos paradigmas de programação, incluindo orientação a objetos, procedural e funcional. Possui uma vasta biblioteca padrão ('baterias incluídas') e uma comunidade grande e ativa. A legibilidade é reforçada pela significância da indentação e pelo guia de estilo PEP 8. Gerenciamento automático de memória via coletor de lixo. É extensível com módulos C/C++ e pode ser embutida em outras aplicações. Sendo open source, é gratuita e amplamente adotada.",
+        "sobre": "https://www.python.org/",
+        "img": "https://beecrowd.com/wp-content/uploads/2024/04/2022-07-19-Melhores-cursos-de-Python.jpg",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1200px-Python-logo-notext.svg.png",
+        "historia": "Python foi concebido no final dos anos 1980 por Guido van Rossum na Holanda e seu nome foi inspirado na série de comédia britânica \"Monty Python's Flying Circus\". A primeira versão, 0.9.0, foi lançada em 1991. Python 2.0, lançado em 2000, introduziu funcionalidades como list comprehensions. Python 3.0, lançado em 2008, foi uma grande revisão da linguagem que não era totalmente compatível com as versões anteriores. A filosofia do Python enfatiza a legibilidade do código e um design limpo."
+    },
+    {
+        "nome": "HTML",
+        "ano": "1991 - Tim Berners-Lee",
+        "descrição": "Linguagem de marcação para a web",
+        "caracteristicas": "HTML, ou Linguagem de Marcação de Hipertexto, é a espinha dorsal de qualquer página da web, fornecendo a estrutura e o conteúdo semântico. Ele utiliza tags para definir elementos como títulos, parágrafos, links, imagens e formulários, organizando as informações de maneira hierárquica. O HTML é interpretado pelos navegadores, que renderizam o conteúdo de acordo com suas marcações, exibindo-o visualmente. É uma linguagem declarativa e não uma linguagem de programação, focada na apresentação e organização de dados. A evolução do HTML, como o HTML5, introduziu novos elementos semânticos e APIs, permitindo a criação de aplicações web mais ricas e acessíveis, incluindo recursos multimídia nativos e gráficos vetoriais. Sua universalidade e simplicidade o tornam fundamental para a construção de qualquer experiência online.",
+        "sobre": "https://developer.mozilla.org/pt-BR/docs/Web/HTML",
+        "img": "https://www.freecodecamp.org/portuguese/news/content/images/2022/01/html-examples.jpeg",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/2048px-HTML5_logo_and_wordmark.svg.png",
+        "historia": "HTML (HyperText Markup Language) foi criado por Tim Berners-Lee em 1991 no CERN para facilitar o compartilhamento de documentos. A primeira versão, HTML 1.0, era básica. HTML 2.0 (1995) adicionou formulários e tabelas. HTML 4.01 (1999) introduziu o suporte a CSS. O HTML5, a versão atual, foi finalizado em 2014 e trouxe suporte para áudio, vídeo e semântica, tornando-se o padrão moderno para a web."
+    },
+    {
+        "nome": "CSS",
+        "ano": "1996, Håkon Wium Lie",
+        "descrição": "Linguagem de estilização para web",
+        "caracteristicas": "CSS, ou Cascading Style Sheets, é a linguagem usada para estilizar a apresentação de documentos escritos em HTML. Ele permite separar o conteúdo da estrutura, definindo cores, fontes, layouts, espaçamentos e outros aspectos visuais, tornando o design responsivo e adaptável a diferentes dispositivos e tamanhos de tela. Com CSS, é possível criar experiências visuais ricas e consistentes, controlando desde a tipografia até animações e transições. A natureza em cascata do CSS permite que estilos sejam aplicados em diferentes níveis (inline, interno, externo), com regras de especificidade e herança que definem como os estilos são combinados e priorizados. É uma ferramenta essencial para designers e desenvolvedores web, capacitando-os a transformar layouts simples em interfaces de usuário atraentes e funcionais, aprimorando significativamente a estética e a usabilidade de qualquer site.",
+        "sobre": "https://developer.mozilla.org/pt-BR/docs/Web/CSS//",
+        "img": "https://images.pexels.com/photos/256502/pexels-photo-256502.jpeg?_gl=1*1p6ldd3*_ga*MjM5OTY3ODQwLjE3NTE2NjcwNTM.*_ga_8JE65Q40S6*czE3NjM3ODQ2MjEkbzM1JGcxJHQxNzYzNzg0NjQ3JGozNCRsMCRoMA..",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png",
+        "historia": "CSS (Cascading Style Sheets) foi proposto por Håkon Wium Lie em 1994 para separar a apresentação do conteúdo na web. A primeira versão, CSS1, foi lançada em 1996 pelo W3C. O CSS2 seguiu em 1998, adicionando mais recursos de layout. O CSS3, desenvolvido em módulos, introduziu design responsivo e recursos visuais avançados. Hoje, o CSS é um \"padrão vivo\", em constante evolução para atender às necessidades do design moderno da web."
+    },
+    {
+        "nome": "JSON",
+        "ano": "2001, Douglas Crockford",
+        "descrição": "Formato de troca de dados leve",
+        "caracteristicas": "JSON, ou JavaScript Object Notation, é um formato de dados leve e de fácil leitura, amplamente utilizado para troca de informações entre sistemas e na comunicação com APIs. Sua estrutura é baseada em pares chave-valor e listas ordenadas, tornando-o intuitivo e direto para humanos e máquinas. Apesar do nome, JSON é independente de linguagem, sendo suportado por praticamente todas as linguagens de programação, o que facilita a interoperabilidade. Ele se tornou o padrão de fato para a comunicação assíncrona na web (AJAX) e é fundamental no desenvolvimento de aplicações modernas, desde front-ends que consomem dados de back-ends até configurações de sistemas e armazenamento de dados não estruturados. Sua simplicidade e eficiência na serialização e desserialização de dados o tornam uma escolha robusta e flexível para qualquer cenário que exija troca de informações.",
+        "sobre": "https://www.json.org/json-pt.html",
+        "img": "https://codeboothgh.com/wp-content/uploads/2021/12/json-codeboothgh-300x278.png",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/JSON_vector_logo.svg/1200px-JSON_vector_logo.svg.png",
+        "historia": "JSON (JavaScript Object Notation) foi especificado por Douglas Crockford no início dos anos 2000 como uma alternativa leve ao XML. Ele e Chip Morningstar enviaram a primeira mensagem JSON em abril de 2001. Crockford lançou o JSON.org em 2002, o que ajudou na sua adoção. A popularidade do JSON cresceu com o surgimento do AJAX, tornando-se um padrão para a troca de dados na web. Foi padronizado pela primeira vez em 2013 como ECMA-404."
+    },
+    {
+        "nome": "Java",
+        "ano": "1995, James Gosling",
+        "descrição": "Linguagem de programação orientada a objetos",
+        "caracteristicas": "Java é uma linguagem de programação orientada a objetos (POO) amplamente utilizada, conhecida por sua portabilidade e robustez, simbolizadas pelo lema 'Escreva uma vez, execute em qualquer lugar' (WORA). Ela é compilada para bytecode, que é executado pela Máquina Virtual Java (JVM), permitindo que o mesmo código funcione em diferentes sistemas operacionais. Java é fortemente tipada, o que ajuda na detecção de erros em tempo de compilação, e possui um rico ecossistema de APIs, frameworks (como Spring e Hibernate) e ferramentas de desenvolvimento. É usada em uma vasta gama de aplicações, desde sistemas corporativos de grande escala e desenvolvimento Android até aplicações web e dispositivos embarcados. Sua coleta de lixo automática e o gerenciamento de memória integrado facilitam o desenvolvimento, enquanto a segurança é uma preocupação central desde sua concepção. Java continua a ser uma das linguagens mais relevantes e procuradas no mercado.",
+        "sobre": "https://www.java.com/",
+        "img": "https://miro.medium.com/v2/resize:fit:1100/format:webp/0*gtY-llyEbkeoS1Sp.png",
+        "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/30/Java_programming_language_logo.svg/1200px-Java_programming_language_logo.svg.png",
+        "historia": "Java foi criada por James Gosling na Sun Microsystems e lançada em 1995. Projetada com o lema 'Escreva uma vez, execute em qualquer lugar' (WORA), ela se tornou uma das linguagens mais populares do mundo, especialmente para aplicações empresariais. Em 2010, a Oracle adquiriu a Sun Microsystems, e desde então tem mantido e desenvolvido a linguagem."
+    },
+    {
+        "nome": "C++",
+        "ano": "1985, Bjarne Stroustrup",
+        "descrição": "Linguagem de programação de propósito geral",
+        "caracteristicas": "C++ é uma poderosa linguagem de programação de propósito geral, desenvolvida como uma extensão da linguagem C, incorporando recursos de programação orientada a objetos (POO). Ela oferece um alto nível de controle sobre recursos de hardware e memória, o que a torna ideal para desenvolvimento de sistemas, jogos, drivers de dispositivo, sistemas embarcados e aplicações de alto desempenho. C++ suporta múltiplos paradigmas de programação, incluindo procedural, orientado a objetos e genérico, proporcionando flexibilidade para o desenvolvedor. Embora ofereça grande poder e eficiência, a gestão manual de memória e a complexidade de seus recursos exigem um conhecimento aprofundado para evitar erros. Sua padronização contínua garante a relevância e a evolução da linguagem, mantendo-a como uma escolha fundamental para projetos que exigem performance máxima e controle granular.",
+        "sobre": "https://isocpp.org/",
+        "img": "https://miro.medium.com/v2/1*80ijve3Oyld11fc0pB0yqw.jpeg",
+        "logo": "https://raw.githubusercontent.com/isocpp/logos/master/cpp_logo.png",
+        "historia": "C++ foi desenvolvido por Bjarne Stroustrup no Bell Labs a partir de 1979, como uma extensão da linguagem C, e foi chamado inicialmente de 'C com Classes'. Foi renomeado para C++ em 1983. A primeira versão comercial foi lançada em 1985. A linguagem foi padronizada pela primeira vez em 1998 (C++98) e continua a evoluir com novas versões, como C++11, C++17 e C++20."
+    },
+    {
+        "nome": "C#",
+        "ano": "2000, Microsoft (Anders Hejlsberg)",
+        "descrição": "Linguagem de programação desenvolvida pela Microsoft",
+        "caracteristicas": "C# (C Sharp) é uma linguagem de programação moderna, orientada a objetos, desenvolvida pela Microsoft como parte da plataforma .NET. Ela combina a produtividade e a segurança de linguagens de alto nível com o poder e a flexibilidade do C++, tornando-a versátil para uma ampla gama de aplicações. C# é fortemente tipada, suporta múltiplos paradigmas (incluindo programação orientada a objetos, funcional e genérica) e oferece recursos como gerenciamento automático de memória (garbage collection) e tratamento de exceções. É amplamente utilizada no desenvolvimento de aplicações Windows (com WPF, WinForms), web (ASP.NET Core), jogos (Unity), serviços de nuvem (Azure) e até mesmo aplicações móveis (Xamarin). Sua integração profunda com o ecossistema .NET e o suporte contínuo da Microsoft garantem que C# permaneça uma linguagem relevante e poderosa para o desenvolvimento de software empresarial e de consumo.",
+        "sobre": "https://docs.microsoft.com/en-us/dotnet/csharp/",
+        "img": "https://code.visualstudio.com/assets/docs/languages/csharp/csharp-hero.png",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Logo_C_sharp.svg",
+        "historia": "C# (C Sharp) foi desenvolvida pela Microsoft, com liderança de Anders Hejlsberg, e lançada em 2002 como parte da iniciativa .NET. Criada para ser uma linguagem moderna e orientada a objetos, ela evoluiu de uma linguagem focada no Windows para uma solução multiplataforma com o .NET Core, de código aberto."
+    },
+    {
+        "nome": "PHP",
+        "ano": "1995, Rasmus Lerdorf",
+        "descrição": "Linguagem de script do lado do servidor",
+        "caracteristicas": "PHP (Hypertext Preprocessor) é uma linguagem de script de código aberto, amplamente utilizada para desenvolvimento web do lado do servidor. Ela é embutida em HTML, permitindo a criação de páginas dinâmicas, interações com bancos de dados, gerenciamento de sessões e construção de APIs. PHP é conhecida por sua facilidade de aprendizado e por seu vasto ecossistema, incluindo frameworks populares como Laravel e Symfony, que aceleram o desenvolvimento e promovem boas práticas. Apesar de ter sido criticada no passado por inconsistências, as versões modernas do PHP trouxeram melhorias significativas em performance, segurança e recursos de orientação a objetos, tornando-a uma escolha robusta para desde pequenos blogs até grandes plataformas de e-commerce e redes sociais. Sua vasta comunidade e documentação rica garantem suporte e uma constante evolução da linguagem.",
+        "sobre": "https://www.php.net/",
+        "img": "https://propeltech.co.uk/media/fbxnrk0m/understanding-php.jpeg?rmode=max&width=1200",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/PHP-logo.svg/1200px-PHP-logo.svg.png",
+        "historia": "PHP foi criada por Rasmus Lerdorf em 1994 como um conjunto de ferramentas para sua página pessoal, chamadas 'Personal Home Page Tools'. Em 1997, Zeev Suraski e Andi Gutmans reescreveram o núcleo da linguagem, e em 1998, a versão 3 foi lançada com o nome 'PHP: Hypertext Preprocessor', que se popularizou e evoluiu para a linguagem de hoje."
+    },
+    {
+        "nome": "Ruby",
+        "ano": "1995, Yukihiro 'Matz' Matsumoto",
+        "descrição": "Linguagem de programação dinâmica e de código aberto",
+        "caracteristicas": "Ruby é uma linguagem de programação dinâmica, orientada a objetos, de código aberto, conhecida por sua elegância e foco na produtividade do desenvolvedor. Criada com o princípio da 'felicidade do programador' em mente, Ruby oferece uma sintaxe limpa e expressiva, o que a torna agradável de escrever e ler. Ela suporta múltiplos paradigmas de programação, incluindo procedural, funcional e, principalmente, orientação a objetos. O framework web Ruby on Rails é um dos pilares de sua popularidade, permitindo o desenvolvimento rápido de aplicações web robustas e escaláveis. Ruby possui um poderoso sistema de metraprogramação, que permite que o código se modifique em tempo de execução, e uma vasta coleção de bibliotecas (gems) que estendem sua funcionalidade. Sua comunidade ativa e a filosofia de 'convenção sobre configuração' no Rails tornam Ruby uma excelente escolha para startups e projetos que valorizam a velocidade de desenvolvimento.",
+        "sobre": "https://www.ruby-lang.org/",
+        "img": "https://www.iugu.com/hubfs/Imported_Blog_Media/Ruby-conheça-essa-linguagem-de-programação-1.jpg",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Ruby_logo.svg/1200px-Ruby_logo.svg.png",
+        "historia": "Ruby foi criada no Japão por Yukihiro 'Matz' Matsumoto em meados da década de 1990, com o objetivo de ser uma linguagem de script orientada a objetos que fosse produtiva e divertida de usar. Sua primeira versão pública foi lançada em 1995. A popularidade do Ruby cresceu exponencialmente com o lançamento do framework Ruby on Rails em 2004."
+    },
+    {
+        "nome": "Go",
+        "ano": "2009, Robert Griesemer, Rob Pike, Ken Thompson",
+        "descrição": "Linguagem de programação de código aberto do Google",
+        "caracteristicas": "Go, também conhecida como Golang, é uma linguagem de programação de código aberto desenvolvida pelo Google, projetada para ser simples, eficiente e confiável. Ela se destaca pela sua capacidade de lidar com concorrência de forma nativa e eficiente através de goroutines e canais, tornando-a ideal para construção de sistemas distribuídos e microsserviços. Go é uma linguagem compilada, estaticamente tipada, com uma sintaxe minimalista inspirada em C, mas com recursos modernos como coleta de lixo e segurança de memória. Ela possui um rápido tempo de compilação e gera binários estáticos, o que facilita o deploy. Sua biblioteca padrão é rica e abrangente, suportando desde manipulação de rede até criptografia. A crescente adoção de Go em empresas de tecnologia e startups demonstra seu potencial para construir software de alta performance e escalabilidade, especialmente em ambientes de nuvem e infraestrutura.",
+        "sobre": "https://golang.org/",
+        "img": "https://lspot.com.br/wp-content/uploads/2023/12/go.jpg",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Go_Logo_Blue.svg/1200px-Go_Logo_Blue.svg.png",
+        "historia": "Go, também conhecida como Golang, é uma linguagem de programação de código aberto desenvolvida pelo Google, projetada para ser simples, eficiente e confiável. O desenvolvimento do Go começou em 2007 por Robert Griesemer, Rob Pike e Ken Thompson. A linguagem foi anunciada publicamente em novembro de 2009. Go foi criada para melhorar a produtividade da programação em uma era de máquinas multicore, em rede e grandes bases de código."
+    },
+    {
+        "nome": "Swift",
+        "ano": "2014, Apple (Chris Lattner)",
+        "descrição": "Linguagem de programação para iOS, macOS, watchOS e tvOS",
+        "caracteristicas": "Swift é uma linguagem de programação moderna, poderosa e intuitiva, desenvolvida pela Apple para criar aplicativos para iOS, macOS, watchOS, tvOS e além. Ela foi projetada para ser segura, performática e expressiva, combinando o melhor das linguagens modernas com a herança de C e Objective-C. Swift é fortemente tipada, o que ajuda a prevenir erros em tempo de compilação, e incorpora recursos como inferência de tipo, gerenciamento automático de memória (ARC) e tratamento de erros robusto. Sua sintaxe concisa e clara facilita a leitura e escrita de código. Com o lançamento do Swift open source e o suporte a plataformas como Linux e Windows, a linguagem expandiu seu alcance para além do ecossistema Apple, tornando-se uma opção viável para desenvolvimento de backend e outras aplicações multiplataforma. Sua contínua evolução e a vibrante comunidade de desenvolvedores a consolidam como uma linguagem chave para o futuro da computação.",
+        "sobre": "https://developer.apple.com/swift/",
+        "img": "https://macmagazine.com.br/wp-content/uploads/2015/05/22-programacao-funcional-swift.jpg",
+        "logo": "https://images.icon-icons.com/2699/PNG/512/swift_logo_icon_168770.png",
+        "historia": "Swift é uma linguagem de programação desenvolvida pela Apple para iOS, macOS, watchOS, tvOS e além. Foi introduzida na WWDC da Apple em 2014. Swift foi projetada para funcionar com os frameworks Cocoa e Cocoa Touch da Apple e a grande base de código Objective-C existente para produtos da Apple."
+    },
+    {
+        "nome": "Kotlin",
+        "ano": "2011, JetBrains",
+        "descrição": "Linguagem de programação para a JVM, Android e navegador",
+        "caracteristicas": "Kotlin é uma linguagem de programação moderna, estaticamente tipada, desenvolvida pela JetBrains, que roda na Máquina Virtual Java (JVM) e pode ser compilada para JavaScript e código nativo. Ela é totalmente interoperável com Java, permitindo que desenvolvedores migrem gradualmente e utilizem bibliotecas Java existentes. Kotlin foi projetada para ser concisa, segura (minimiza erros de ponteiro nulo), e expressiva, melhorando a produtividade do desenvolvedor. Tornou-se a linguagem preferencial para o desenvolvimento Android, oferecendo recursos como corrotinas para programação assíncrona, extensões de função e classes de dados que reduzem o boilerplate. Sua sintaxe elegante e os recursos de linguagem modernos, como delegação de propriedades e classes seladas, a tornam uma alternativa poderosa e agradável ao Java para uma ampla gama de aplicações, desde backend e web até mobile e desktop.",
+        "sobre": "https://kotlinlang.org/",
+        "img": "https://miro.medium.com/v2/1*IzE0j0AMtdOYnwex5KylxQ.png",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Kotlin_Icon.png/1200px-Kotlin_Icon.png",
+        "historia": "Kotlin é uma linguagem de programação de tipagem estática que roda na Java Virtual Machine (JVM) e também pode ser compilada para código-fonte JavaScript. A primeira versão foi lançada em 2011 pela JetBrains, a empresa por trás do IntelliJ IDEA. Em 2019, o Google anunciou que a linguagem de programação Kotlin é agora sua linguagem preferida para desenvolvedores de aplicativos Android."
+    },
+    {
+        "nome": "TypeScript",
+        "ano": "2012, Microsoft (Anders Hejlsberg)",
+        "descrição": "Superset de JavaScript que adiciona tipagem estática",
+        "caracteristicas": "TypeScript é um superset de JavaScript que adiciona tipagem estática opcional, tornando o código mais robusto, escalável e fácil de manter, especialmente em projetos grandes. Ele compila para JavaScript puro, o que significa que pode ser executado em qualquer lugar que o JavaScript possa. TypeScript oferece recursos avançados como interfaces, classes, genéricos, e enumerações, que permitem aos desenvolvedores escrever código mais organizado e com menos erros. A tipagem estática melhora a autocomplicação e a refatoração em IDEs, aumentando a produtividade. Sua crescente adoção em frameworks como Angular e React, juntamente com o suporte da Microsoft e uma comunidade ativa, solidificou sua posição como uma ferramenta essencial para o desenvolvimento web moderno. Ele permite que as equipes construam aplicações complexas com maior confiança e colaboração, aproveitando o vasto ecossistema JavaScript com a segurança dos tipos.",
+        "sobre": "https://www.typescriptlang.org/",
+        "img": "https://images.prismic.io/prismic-main/ZnquZpbWFbowe1d4_TypeScript_Prismic.png?auto=format,compress",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/1200px-Typescript_logo_2020.svg.png",
+        "historia": "TypeScript é uma linguagem de programação de código aberto desenvolvida pela Microsoft. É um superconjunto sintático estrito de JavaScript e adiciona tipagem estática opcional à linguagem. TypeScript foi projetado para o desenvolvimento de grandes aplicativos e transcompila para JavaScript. Como o TypeScript é um superconjunto do JavaScript, os programas JavaScript existentes também são programas TypeScript válidos."
+    },
+    {
+        "nome": "Rust",
+        "ano": "2010, Graydon Hoare",
+        "descrição": "Linguagem de programação de sistemas com foco em segurança",
+        "caracteristicas": "Rust é uma linguagem de programação de sistemas que se destaca por seu foco em segurança de memória e performance, sem a necessidade de um coletor de lixo. Ela garante a segurança através de um sistema de posse (ownership) e borrowing, que é verificado em tempo de compilação, eliminando bugs comuns como ponteiros nulos e corrida de dados. Rust é altamente performática, permitindo controle de baixo nível semelhante ao C e C++, mas com uma segurança muito maior. É utilizada para desenvolvimento de sistemas operacionais, motores de jogos, navegadores, e aplicações de rede de alta performance. Apesar de uma curva de aprendizado mais acentuada devido aos seus conceitos de ownership, sua crescente popularidade e o suporte de uma comunidade engajada a posicionam como uma linguagem promissora para construir software robusto e confiável, especialmente em áreas onde a segurança e a velocidade são críticas.",
+        "sobre": "https://www.rust-lang.org/",
+        "img": "https://belenos.me/media/2024-06-rust-linguagem-programacao.webp",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Rust_programming_language_black_logo.svg/1200px-Rust_programming_language_black_logo.svg.png",
+        "historia": "Rust é uma linguagem de programação de sistemas compilada, multiparadigma, desenvolvida por Graydon Hoare na Mozilla Research com contribuições de Dave Herman, Brendan Eich e outros. O primeiro lançamento estável, Rust 1.0, foi lançado em 15 de maio de 2015."
+    },
+    {
+        "nome": "Scala",
+        "ano": "2004, Martin Odersky",
+        "descrição": "Linguagem de programação que combina orientação a objetos e programação funcional",
+        "caracteristicas": "Scala é uma linguagem de programação multiparadigma que integra recursos de programação orientada a objetos e programação funcional. Ela roda na Máquina Virtual Java (JVM), o que garante interoperabilidade completa com o vasto ecossistema Java e suas bibliotecas. Scala é conhecida por sua sintaxe concisa e expressiva, que permite escrever código mais compacto e legível. Ela oferece um poderoso sistema de tipos estático, que ajuda a prevenir erros em tempo de compilação, e recursos avançados como inferência de tipo, pattern matching e tipos abstratos de dados. Scala é amplamente utilizada em aplicações de big data (como Apache Spark, Kafka), sistemas distribuídos e desenvolvimento web. Embora sua curva de aprendizado possa ser mais acentuada devido à sua riqueza de recursos, Scala recompensa os desenvolvedores com a capacidade de criar sistemas robustos, escaláveis e de alta performance.",
+        "sobre": "https://www.scala-lang.org/",
+        "img": "https://softdesign.com.br/wp-content/uploads/2020/10/Exemplo-de-codigo-linguagem-Scala.webp",
+        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThGO3P6suSZJz4UUk4wIL14WFMaQyRpFTM9w&s",
+        "historia": "Scala foi criada por Martin Odersky, um cientista da computação alemão, na EPFL (École Polytechnique Fédérale de Lausanne) na Suíça. O desenvolvimento começou em 2001, com o objetivo de combinar características de programação orientada a objetos e funcional. A primeira versão pública foi lançada em 2003, e a versão 2.0 em 2004 trouxe melhorias significativas. Em 2011, o Twitter anunciou sua migração para Scala, e em 2014, o Apache Spark escolheu Scala como sua linguagem principal, impulsionando sua adoção. Scala 3.0, lançada em 2021, foi uma grande reformulação focada em simplificação e melhorias de tipo."
+    },
+    {
+        "nome": "Perl",
+        "ano": "1987, Larry Wall",
+        "descrição": "Linguagem de programação de alto nível, interpretada e dinâmica",
+        "caracteristicas": "Perl é uma linguagem de programação de alto nível, interpretada e dinâmica, conhecida por sua flexibilidade e poder no processamento de texto e manipulação de expressões regulares. Originalmente desenvolvida para manipulação de relatórios, ela evoluiu para uma linguagem de propósito geral, amplamente utilizada em administração de sistemas, desenvolvimento web (especialmente com o framework Catalyst), automação e bioinformática. A sintaxe de Perl é notoriamente flexível, o que pode levar a um código conciso, mas também a um código menos legível para quem não está familiarizado. Ela suporta múltiplos paradigmas de programação, incluindo procedural, funcional e orientado a objetos. Apesar de ter diminuído em popularidade com o surgimento de outras linguagens, Perl ainda é mantida por uma comunidade ativa e continua a ser uma ferramenta poderosa para tarefas que envolvem grandes volumes de dados e processamento de strings, demonstrando sua resiliência e utilidade em nichos específicos.",
+        "sobre": "https://www.perl.org/",
+        "img": "https://giovannireisnunes.wordpress.com/wp-content/uploads/2015/07/oo_perl51.png?w=676",
+        "logo": "https://logowik.com/content/uploads/images/perl-programming-language4007.logowik.com.webp",
+        "historia": "Perl foi criada por Larry Wall e lançada pela primeira vez em 1987. Originalmente, era uma linguagem de script Unix de propósito geral para facilitar o processamento de relatórios. O nome 'Perl' significava originalmente 'Practical Extraction and Report Language', embora Wall mais tarde tenha dito que também poderia significar 'Pathologically Eclectic Rubbish Lister'. A linguagem ganhou popularidade nos anos 90 por suas capacidades de processamento de texto e expressões regulares, sendo amplamente usada em scripts CGI para a World Wide Web. Uma grande reescrita, Perl 5, lançada em 1994, trouxe recursos orientados a objetos. O desenvolvimento de Perl 6 começou em 2000, evoluindo para uma linguagem separada conhecida como Raku. Perl 5 continua sendo usada para administração de sistemas, programação de rede e bioinformática."
+    },
+    {
+        "nome": "Lua",
+        "ano": "1993, Roberto Ierusalimschy, Luiz Henrique de Figueiredo, Waldemar Celes",
+        "descrição": "Linguagem de programação leve e de script - Brasileira",
+        "caracteristicas": "Lua é uma linguagem de programação leve, multiplataforma, desenvolvida no Brasil. Ela foi projetada para ser uma linguagem de script poderosa, eficiente e extensível, ideal para ser embutida em outras aplicações. Lua é conhecida por seu tamanho reduzido, alta performance e simplicidade, o que a torna popular em desenvolvimento de jogos (especialmente com frameworks como Corona SDK e Love2D), configuração de aplicações, automação e sistemas embarcados. Sua sintaxe é clara e fácil de aprender, e ela utiliza tabelas como a única estrutura de dados complexa, simplificando seu modelo. Embora não seja orientada a objetos por padrão, pode ser implementada através de metatabelas. A filosofia de design de Lua foca na flexibilidade e na capacidade de adaptação a diversos cenários, permitindo que os desenvolvedores estendam sua funcionalidade conforme a necessidade. Sua presença em títulos de jogos como World of Warcraft e Angry Birds demonstra sua capacidade e eficácia.",
+        "sobre": "https://www.lua.org/",
+        "img": "https://www.lexaloffle.com/media/51001/Screenshot%202024-03-16%20105634.png",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Lua-Logo.svg/1200px-Lua-Logo.svg.png",
+        "historia": "Lua foi criada em 1993 por Roberto Ierusalimschy, Luiz Henrique de Figueiredo e Waldemar Celes na PUC-Rio, Brasil. Desenvolvida para fornecer capacidades de script poderosas com código mínimo e pequena pegada, foi inicialmente motivada pela necessidade de uma linguagem personalizável para a Petrobras. 'Lua' significa 'lua' em português. As versões iniciais (1.0 - 4.0) evoluíram rapidamente. Lua 5.0 (2003) introduziu corrotinas, e Lua 5.1 (2006) adicionou um sistema modular e um coletor de lixo aprimorado, solidificando seu uso em jogos. LuaJIT, um compilador JIT, impulsionou seu desempenho. As versões subsequentes, como Lua 5.3 (2015) com suporte a inteiros e Lua 5.4 (2020) com coleta de lixo geracional, continuaram aprimorando-a. Hoje, Lua é amplamente utilizada em desenvolvimento de jogos, dispositivos embarcados e aplicações web."
+    },
+    {
+        "nome": "Haskell",
+        "ano": "1990 - Simon Peyton Jones, Philip Wadler, Paul Hudak and others",
+        "descrição": "Linguagem de programação puramente funcional",
+        "caracteristicas": "Haskell é uma linguagem de programação puramente funcional, o que significa que as funções são tratadas como funções matemáticas e não produzem efeitos colaterais. Possui um sistema de tipos estático robusto, que ajuda a detectar muitos erros em tempo de compilação. Haskell apresenta avaliação preguiçosa, onde as expressões não são avaliadas até que seus valores sejam realmente necessários, resultando em um código mais modular e eficiente. A linguagem suporta inferência de tipos, reduzindo as anotações de tipo explícitas, e permite funções de ordem superior, onde as funções podem receber outras funções como argumentos ou retorná-las. As estruturas de dados são imutáveis ​​e o casamento de padrões oferece um tratamento de dados elegante. Também fornece construções integradas para concorrência.",
+        "sobre": "https://www.haskell.org/",
+        "img": "https://d3nb0lfxfkcrhy.cloudfront.net/images/language/haskell-about.png?w=3840&q=75",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Haskell-Logo.svg/1200px-Haskell-Logo.svg.png",
+        "historia": "Haskell é uma linguagem de programação puramente funcional, nomeada em homenagem ao lógico Haskell Curry. Em 1987, um comitê foi formado para trabalhar em uma linguagem funcional puramente comum. Em 1990, a primeira versão, Haskell 1.0, foi lançada. Em 1997, o Haskell 98 foi lançado, fornecendo uma versão estável e mínima da linguagem, destinada ao ensino e como base para futuras extensões. Em 2003, o Haskell Report (Haskell 98) foi publicado. A partir de 2006, a linguagem continuou a evoluir com várias extensões, e um novo padrão, Haskell 2010, foi lançado. Hoje, Haskell é ativamente desenvolvido e usado na academia e na indústria, conhecido por sua tipagem estática forte, inferência de tipo e avaliação preguiçosa."
+    },
+    {
+        "nome": "R",
+        "ano": "1993 - Ross Ihaka and Robert Gentleman",
+        "descrição": "Linguagem de programação para computação estatística e gráficos",
+        "caracteristicas": "R é uma linguagem de programação e ambiente de software livre voltado para computação estatística e gráficos. Ela é amplamente utilizada por estatísticos, cientistas de dados e pesquisadores para análise de dados, modelagem estatística e visualização. R oferece uma vasta gama de pacotes e bibliotecas que facilitam a realização de tarefas complexas, desde análises estatísticas básicas até técnicas avançadas de machine learning e big data. A linguagem é conhecida por sua capacidade de manipular grandes conjuntos de dados e produzir gráficos de alta qualidade, tornando-a uma ferramenta essencial para a exploração e apresentação de dados. Além disso, R possui uma comunidade ativa que contribui continuamente com novos pacotes e recursos, garantindo sua relevância e evolução constante no campo da ciência de dados.",
+        "sobre": "https://www.r-project.org/",
+        "img": "https://rtask.thinkr.fr/wp-content/uploads/R-code.png",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/R_logo.svg/768px-R_logo.svg.png",
+        "historia": "R é uma linguagem de programação e ambiente de software livre para computação estatística e gráficos. Foi criada por Ross Ihaka e Robert Gentleman na Universidade de Auckland, Nova Zelândia, concebida em 1992, com uma versão inicial lançada em 1995 e uma versão beta estável em 2000. O nome 'R' vem dos primeiros nomes dos autores e é uma homenagem à linguagem S, criada por John Chambers em 1976. R é uma implementação da linguagem S, combinada com semântica de escopo léxico inspirada no Scheme. A linguagem oferece uma ampla variedade de técnicas estatísticas e gráficas, é altamente extensível e possui forte suporte da comunidade, um extenso ecossistema de pacotes (CRAN) e a capacidade de produzir gráficos de alta qualidade."
+    },
+    {
+        "nome": "MATLAB",
+        "ano": "1984 - Cleve Moler",
+        "descrição": "Linguagem de programação para computação numérica",
+        "caracteristicas": "MATLAB é uma linguagem de programação de alto nível e ambiente interativo desenvolvido por Cleve Moler, voltado para computação numérica, visualização e programação. Ele é amplamente utilizado em engenharia, ciência e matemática para análise de dados, desenvolvimento de algoritmos e criação de modelos. MATLAB é baseado em matrizes, facilitando operações matemáticas e manipulação de dados. Oferece uma ampla variedade de toolboxes para aplicações específicas, como processamento de sinais, controle, imagem e aprendizado de máquina. A linguagem permite a criação de gráficos e visualizações avançadas, além de suportar integração com outras linguagens como C, C++, Java e Python. MATLAB é um produto proprietário da MathWorks.",
+        "sobre": "https://www.mathworks.com/products/matlab.html",
+        "img": "https://www.mathworks.com/help/matlab/matlab_prog/editor_updated_sections.png",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Matlab_Logo.png/1000px-Matlab_Logo.png",
+        "historia": "MATLAB (Matrix Laboratory) foi desenvolvido por Cleve Moler no início dos anos 1970 para fornecer acesso fácil a softwares de matrizes sem a necessidade de Fortran. Em 1984, Moler co-fundou a MathWorks para comercializar o MATLAB, reescrevendo-o em C para maior velocidade e novos recursos. Ganhou força na academia e indústria para análise numérica, processamento de sinais e sistemas de controle. Simulink foi introduzido em 1990. A partir dos anos 2000, expandiu suas capacidades com toolboxes para diversas aplicações, como processamento de imagem, estatística, aprendizado de máquina e deep learning, tornando-se uma plataforma abrangente para computação técnica."
+    },
+    {
+        "nome": "SQL",
+        "ano": 1974,
+        "descrição": "Linguagem de consulta estruturada para bancos de dados",
+        "caracteristicas": "SQL (Structured Query Language) é uma linguagem de consulta padrão para gerenciamento e manipulação de bancos de dados relacionais. Ela permite aos usuários criar, ler, atualizar e excluir dados armazenados em tabelas, bem como definir e modificar a estrutura do banco de dados. SQL é amplamente utilizada em sistemas de gerenciamento de bancos de dados (SGBDs) como MySQL, PostgreSQL, Oracle e Microsoft SQL Server. A linguagem suporta operações complexas, incluindo junções, agregações e subconsultas, facilitando a extração de informações valiosas a partir de grandes conjuntos de dados. Além disso, SQL inclui comandos para controle de acesso e transações, garantindo a integridade e segurança dos dados. Sua sintaxe declarativa permite que os usuários especifiquem o que desejam fazer com os dados, sem se preocupar com os detalhes de implementação.",
+        "sobre": "https://www.iso.org/standard/63555.html",
+        "img": "https://clarify.com.br/blog/wp-content/uploads/2024/04/SQL-code-blue-purple-background.jpg",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Sql_data_base_with_logo.png/640px-Sql_data_base_with_logo.png",
+        "historia": "SQL (Structured Query Language) teve suas raízes no início dos anos 1970, quando Edgar F. Codd, da IBM, descreveu o modelo relacional para bancos de dados. Em 1974, Donald D. Chamberlin e Raymond F. Boyce, também da IBM, desenvolveram o SEQUEL (Structured English Query Language) baseado no modelo de Codd. A primeira implementação comercial de SQL foi lançada em 1979 pela Oracle Corporation (então Relational Software, Inc.). Em 1986, SQL foi adotada como um padrão pela ANSI (American National Standards Institute) e ISO (International Organization for Standardization)."
+    },
+    {
+        "nome": "Assembly",
+        "ano": 1949,
+        "descrição": "Linguagem de programação de baixo nível",
+        "caracteristicas": "Assembly é uma linguagem de programação de baixo nível que está intimamente ligada à arquitetura do hardware do computador. Ela utiliza mnemônicos para representar instruções de máquina, permitindo que os programadores escrevam código que pode ser diretamente traduzido para o conjunto de instruções do processador. Assembly oferece controle preciso sobre os recursos do sistema, como registradores, memória e operações de entrada/saída, tornando-a ideal para desenvolvimento de sistemas operacionais, drivers de dispositivos e software embarcado. No entanto, a programação em Assembly é mais complexa e menos portátil do que em linguagens de alto nível, exigindo um conhecimento profundo da arquitetura do hardware específico. Apesar disso, o Assembly continua a ser uma ferramenta valiosa para otimização de desempenho e compreensão dos fundamentos da computação.",
+        "sobre": "https://en.wikipedia.org/wiki/Assembly_language",
+        "img": "https://quantumzeitgeist.com/wp-content/uploads/asm.png",
+        "logo": "https://i.pinimg.com/736x/25/a8/5d/25a85d9e5057430d82273a3c75e73014.jpg",
+        "historia": "A linguagem Assembly não possui um logo único e universal, sendo um conceito que abrange linguagens de baixo nível que correspondem diretamente ao código de máquina de um computador. Nos primórdios da computação (décadas de 1940-1950), programadores escreviam diretamente em código de máquina. Para simplificar, foram desenvolvidas representações simbólicas (mnemônicos como ADD) que deram origem às primeiras linguagens Assembly. Kathleen Booth desenvolveu um dos primeiros montadores (assemblers) em 1949 para o computador ARC2. Assembly ofereceu maior legibilidade e manutenção em comparação ao código de máquina, dominando a programação até a popularização de linguagens de alto nível (Fortran, COBOL) nas décadas de 1950-1970. Atualmente, é usada em áreas como sistemas operacionais, drivers, sistemas embarcados, engenharia reversa e otimização de desempenho crítico."
+    },
+    {
+        "nome": "Objective-C",
+        "ano": 1984,
+        "descrição": "Linguagem de programação orientada a objetos usada pela Apple",
+        "caracteristicas": "Objective-C é uma linguagem de programação orientada a objetos que estende a linguagem C com recursos adicionais, como mensagens dinâmicas e tipagem dinâmica. Desenvolvida na década de 1980, tornou-se a principal linguagem para desenvolvimento de software na plataforma Apple, incluindo macOS e iOS, antes da introdução do Swift. Objective-C é conhecida por sua sintaxe única, que combina elementos de C com a notação de mensagens inspirada em Smalltalk. A linguagem suporta programação orientada a objetos completa, incluindo herança, polimorfismo e encapsulamento. Embora tenha sido amplamente substituída pelo Swift em novos projetos, Objective-C ainda é mantida e utilizada em muitos aplicativos legados e continua a ser uma parte importante do ecossistema de desenvolvimento da Apple.",
+        "sobre": "https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/ProgrammingWithObjectiveC/Introduction/Introduction.html",
+        "img": "https://media.proprofs.com/images/QM/user_images/2169923/1513763780.png",
+        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWhX38jqg76QVSLxQYmx3PVbWdRUtnMiSuPg&s",
+        "historia": "Objective-C é uma linguagem de programação orientada a objetos de propósito geral que adiciona mensagens no estilo Smalltalk à linguagem C. Foi desenvolvida por Brad Cox e Tom Love no início da década de 1980 na Stepstone. Em 1988, a NeXT Inc., fundada por Steve Jobs, licenciou o Objective-C e o utilizou como base para seu sistema operacional NeXTSTEP. Após a aquisição da NeXT pela Apple em 1996, o NeXTSTEP evoluiu para o macOS, e o Objective-C tornou-se a principal linguagem para desenvolvimento em plataformas Apple, incluindo iOS a partir de 2008. Em 2014, a Apple introduziu o Swift como seu substituto moderno, e embora o Swift seja a linguagem preferida para novos desenvolvimentos, o Objective-C continua sendo totalmente suportado e presente em muitas bases de código e frameworks legados da Apple."
+    },
+    {
+        "nome": "Groovy",
+        "ano": 2003,
+        "descrição": "Linguagem de programação para a plataforma Java",
+        "caracteristicas": "Groovy é uma linguagem de programação dinâmica que roda na Máquina Virtual Java (JVM) e é totalmente interoperável com Java. Ela foi projetada para ser uma linguagem de script poderosa e expressiva, facilitando o desenvolvimento rápido de aplicações. Groovy combina a sintaxe familiar do Java com recursos modernos, como tipagem dinâmica, closures, metaprogramação e uma sintaxe concisa. Isso permite que os desenvolvedores escrevam código mais curto e legível, aumentando a produtividade. Groovy é amplamente utilizado em desenvolvimento web (com frameworks como Grails), automação de build (com Gradle) e scripts de teste. Sua capacidade de integrar-se perfeitamente com bibliotecas Java existentes torna-a uma escolha popular para projetos que exigem flexibilidade e rapidez no desenvolvimento.",
+        "sobre": "https://groovy-lang.org/",
+        "img": "https://docs.oracle.com/en/applications/jd-edwards/cross-product/9.2/eotot/images/groovy_rest_output.png",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Groovy-logo.svg/2560px-Groovy-logo.svg.png",
+        "historia": "Groovy é uma linguagem de programação orientada a objetos para a plataforma Java, com características dinâmicas semelhantes a Python e Ruby. James Strachan começou a trabalhar nela em 2003, inicialmente chamada 'Rhubarb', com o objetivo de criar uma linguagem mais concisa e expressiva para a JVM. Foi renomeada para Groovy em 2004 e rapidamente ganhou atenção por suas capacidades de scripting e integração com Java. Groovy 1.0 foi lançado em 2007. Em 2012, Groovy 2.0 introduziu capacidades de compilação estática, melhorando o desempenho. Em 2015, tornou-se um projeto de alto nível sob a Apache Software Foundation. É usada para scripting, desenvolvimento web (Grails), automação de build (Gradle) e testes."
+    },
+    {
+        "nome": "Dart",
+        "ano": 2011,
+        "descrição": "Linguagem de programação otimizada para clientes para aplicativos rápidos em qualquer plataforma",
+        "caracteristicas": "Dart é uma linguagem de programação desenvolvida pelo Google, projetada para construir aplicativos rápidos e eficientes para várias plataformas, incluindo web, mobile e desktop. Ela é otimizada para o desenvolvimento de interfaces de usuário (UI) reativas e oferece uma sintaxe clara e concisa, inspirada em linguagens como JavaScript, Java e C#. Dart suporta tanto a compilação Just-In-Time (JIT) para desenvolvimento rápido quanto a compilação Ahead-Of-Time (AOT) para desempenho otimizado em produção. A linguagem é a base do framework Flutter, que permite criar aplicativos nativos com uma única base de código. Dart também possui um sistema de tipos opcional, suporte a programação assíncrona com async/await, e uma rica biblioteca padrão que facilita o desenvolvimento de aplicações modernas e responsivas.",
+        "sobre": "https://dart.dev/",
+        "img": "https://dartcode.org/images/release_notes/v3.1/ui_guides.png",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Dart-logo.png",
+        "historia": "Dart foi apresentada pelo Google na conferência GOTO em Aarhus, Dinamarca, em 10 de outubro de 2011. Inicialmente, foi projetada como uma linguagem otimizada para o cliente, visando ser um potencial substituto do JavaScript na web. Em 2013, foi lançada a versão Dart 1.0. Em meados da década de 2010, o foco do Google para o Dart mudou para o desenvolvimento móvel, tornando-se a linguagem fundamental para o kit de ferramentas Flutter. Em 2018, Dart 2.0 foi lançado, uma revisão significativa que adotou um sistema de tipos robusto e foi otimizada para o Flutter. Atualmente, Dart, impulsionada principalmente pelo Flutter, é popular para construir aplicações multiplataforma (mobile, web e desktop) a partir de uma única base de código."
+    },
+    {
+        "nome": "Elixir",
+        "ano": 2012,
+        "descrição": "Linguagem de programação funcional, concorrente e de propósito geral",
+        "caracteristicas": "Elixir é uma linguagem de programação funcional, concorrente e de propósito geral que roda na Máquina Virtual Erlang (BEAM). Ela foi projetada para construir aplicações escaláveis e de alta disponibilidade, aproveitando o modelo de atores do Erlang para gerenciar concorrência e falhas. Elixir oferece uma sintaxe moderna e expressiva, inspirada em Ruby, tornando-a acessível para desenvolvedores familiarizados com linguagens orientadas a objetos. A linguagem suporta metaprogramação, permitindo que os desenvolvedores criem DSLs (Domain-Specific Languages) e estendam a funcionalidade da linguagem. Elixir é amplamente utilizada no desenvolvimento web, especialmente com o framework Phoenix, que facilita a criação de aplicações web em tempo real e APIs robustas. Sua combinação de desempenho, escalabilidade e facilidade de uso a torna uma escolha popular para sistemas distribuídos e aplicações modernas.",
+        "sobre": "https://elixir-lang.org/",
+        "img": "https://miro.medium.com/v2/resize:fit:2000/1*_rw6r7w98d6L2tpensAuTw.png",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/9/92/Official_Elixir_logo.png",
+        "historia": "Elixir é uma linguagem funcional e dinâmica projetada para aplicações escaláveis e manuteníveis. Foi criada por José Valim em 2012, um desenvolvedor Ruby on Rails, que buscou combinar a robustez e concorrência do Erlang (em cuja Máquina Virtual, BEAM, Elixir roda) com uma sintaxe mais moderna e produtiva, semelhante ao Ruby. A linguagem incorpora influências de Ruby (sintaxe, metaprogramação) e Lisp/Clojure (macros), permitindo recursos como concorrência nativa por processos leves, tolerância a falhas via modelo de supervisão, programação funcional e metaprogramação. O lançamento do framework web Phoenix em 2014 impulsionou sua adoção, tornando Elixir popular para aplicações de alta concorrência, tempo real e sistemas backend robustos."
+    },
+    {
+        "nome": "Clojure",
+        "ano": 2007,
+        "descrição": "Dialeto moderno da linguagem de programação Lisp",
+        "caracteristicas": "Clojure é um dialeto moderno da linguagem de programação Lisp, projetado para ser uma linguagem funcional e dinâmica que roda na Máquina Virtual Java (JVM). Ela enfatiza a imutabilidade e o uso de estruturas de dados persistentes, facilitando a construção de programas concorrentes e paralelos. Clojure oferece uma sintaxe simples e poderosa, baseada em expressões S-expressions, que permite aos desenvolvedores escrever código conciso e expressivo. A linguagem suporta macros, permitindo a metaprogramação e a criação de DSLs (Domain-Specific Languages). Clojure é amplamente utilizada em desenvolvimento web, ciência de dados e sistemas distribuídos, graças à sua interoperabilidade com bibliotecas Java existentes e sua capacidade de lidar com grandes volumes de dados de forma eficiente. Sua comunidade ativa e o ecossistema crescente contribuem para sua popularidade como uma linguagem funcional moderna.",
+        "sobre": "https://clojure.org/",
+        "img": "https://blog.janetacarr.com/content/images/size/w1200/2023/01/carbon-14-.png",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Clojure_logo.svg/1000px-Clojure_logo.svg.png",
+        "historia": "Clojure foi criada por Rich Hickey e lançada publicamente em outubro de 2007. Hickey a desenvolveu para resolver desafios de programação concorrente, buscando uma linguagem tipo Lisp que rodasse na JVM e utilizasse estruturas de dados imutáveis e paradigmas funcionais. Clojure é um dialeto moderno, dinâmico e funcional de Lisp, projetado para interoperação com Java. Sua filosofia enfatiza imutabilidade e estruturas de dados persistentes para simplificar a concorrência. Oferece ferramentas sofisticadas para concorrência e encoraja desenvolvimento interativo via REPL. O código é representado como estruturas de dados, permitindo metaprogramação poderosa. O ícone do elefante é amplamente reconhecido como seu mascote não oficial."
+    },
+    
+    {
+        "nome": "Erlang",
+        "ano": 1986,
+        "descrição": "Linguagem de programação para sistemas concorrentes e distribuídos",
+        "caracteristicas": "Erlang é uma linguagem de programação funcional, concorrente e distribuída, projetada para construir sistemas tolerantes a falhas e de alta disponibilidade. Ela foi desenvolvida pela Ericsson na década de 1980 para atender às necessidades de sistemas de telecomunicações. Erlang utiliza um modelo de atores para gerenciar concorrência, onde processos leves se comunicam por troca de mensagens assíncronas. A linguagem possui um coletor de lixo eficiente, suporte a hot code swapping (atualização de código em tempo de execução) e um sistema de supervisão para monitorar e reiniciar processos em caso de falhas. Erlang é amplamente utilizada em sistemas de telecomunicações, bancos de dados distribuídos, sistemas de mensagens e aplicações web em tempo real. Sua robustez, escalabilidade e capacidade de lidar com falhas a tornam uma escolha popular para sistemas críticos e distribuídos.",
+        "sobre": "https://www.erlang.org/",
+        "img": "https://erlang-ls.github.io/images/code-lens-example.png?raw=true",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Erlang_logo.svg/1168px-Erlang_logo.svg.png",
+        "historia": "Erlang foi projetada no Laboratório de Ciência da Computação da Ericsson por Joe Armstrong, Robert Virding e Mike Williams, a partir de 1986. Seu objetivo principal era construir sistemas tolerantes a falhas, concorrentes, distribuídos e em tempo real para aplicações de telecomunicações. A primeira versão foi implementada em Prolog, mas foi reescrita em C para melhor desempenho em 1992, tornando-se self-hosting. Em 1998, a Ericsson tornou Erlang open-source. É conhecida por sua filosofia 'deixe falhar', usando supervisores para reiniciar processos com falha, e seu modelo de concorrência baseado em atores. Erlang é usada em telecomunicações, mensagens instantâneas, jogos e serviços financeiros que exigem alta disponibilidade e escalabilidade."
+    },
+     {
+        "nome": "C",
+        "ano": 1972,
+        "descrição": "Linguagem de programação de propósito geral",
+        "caracteristicas": "C é uma linguagem de programação de propósito geral desenvolvida na década de 1970 por Dennis Ritchie. Ela é conhecida por sua eficiência, portabilidade e capacidade de manipular diretamente o hardware do computador, tornando-a uma escolha popular para desenvolvimento de sistemas operacionais, drivers de dispositivos e software embarcado. C possui uma sintaxe simples e poderosa, que permite aos programadores controlar recursos de baixo nível, como gerenciamento de memória e operações bit a bit. A linguagem suporta programação procedural e modular, facilitando a organização e reutilização de código. C influenciou muitas outras linguagens de programação, como C++, Java e Python, e continua a ser amplamente utilizada em diversas áreas da computação devido à sua performance e flexibilidade.",
+        "sobre": "https://en.wikipedia.org/wiki/C_(programming_language)",
+        "img": "https://idocode.com.br/wp-content/uploads/2020/04/aprender-programar-linguagem-c.jpg",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/1/18/C_Programming_Language.svg",
+        "historia": "C é uma linguagem de programação de propósito geral desenvolvida em 1972 por Dennis Ritchie nos Bell Labs, principalmente para o desenvolvimento do sistema operacional Unix. Antecessores como ALGOL 60, CPL, BCPL e B influenciaram sua criação. Em 1978, Brian Kernighan e Dennis Ritchie publicaram 'The C Programming Language'. Em 1989, o ANSI padronizou C como ANSI C (C89), seguido pelo ISO C90. Revisões subsequentes incluem C99 (1999), C11 (2011) e C18 (2018). C se tornou influente devido à sua eficiência, controle de hardware e portabilidade, servindo de base para muitas outras linguagens e sendo amplamente utilizada em sistemas operacionais, sistemas embarcados e computação de alto desempenho."
+    },
+    {
+        "nome": "Julia",
+        "ano": 2012,
+        "descrição": "Linguagem de programação de alto nível e alto desempenho para computação técnica",
+        "caracteristicas": "Julia é uma linguagem de programação de alto nível, dinâmica e de alto desempenho, projetada para computação técnica e científica. Ela combina a facilidade de uso de linguagens interpretadas com a velocidade de linguagens compiladas, tornando-a ideal para tarefas que exigem desempenho, como análise de dados, modelagem matemática e aprendizado de máquina. Julia suporta múltiplos paradigmas de programação, incluindo programação funcional, orientada a objetos e imperativa. A linguagem possui um sistema de tipos dinâmico, múltiplos dispatches e uma sintaxe expressiva que facilita a escrita de código claro e conciso. Além disso, Julia possui uma rica biblioteca padrão e um ecossistema crescente de pacotes para diversas áreas científicas e técnicas. Sua capacidade de interoperar com outras linguagens, como C, Python e R, amplia ainda mais sua aplicabilidade em projetos complexos.",
+        "sobre": "https://julialang.org/",
+        "img": "https://www.matecdev.com/img/julia-vscode.png",
+        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7c3VJyqIFFGQDSFODGF-YBH2BK2T-VY2DYw&s",
+        "historia": "Julia foi concebida em 2009 por Jeff Bezanson, Stefan Karpinski, Viral B. Shah e Alan Edelman. O objetivo era criar uma linguagem que combinasse a expressividade e facilidade de uso de linguagens dinâmicas como Python e R, com o desempenho de linguagens compiladas como C e Fortran, para resolver o 'problema das duas linguagens'. O projeto foi anunciado publicamente em 14 de fevereiro de 2012. Os princípios de design incluíam velocidade (via compilador JIT usando LLVM), dinamismo, usabilidade, propósito geral, código aberto e multiple dispatch. Desde então, Julia ganhou adoção em computação científica, ciência de dados, aprendizado de máquina e finanças, com a versão 1.0 lançada em agosto de 2018, marcando a primeira versão estável e retrocompatível."
+    }
+  
+]

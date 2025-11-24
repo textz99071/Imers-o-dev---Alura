@@ -1,0 +1,2750 @@
+.javascript {
+    background-color: rgba(0,0,0,0.2);
+    color: #323330;
+    padding: 5px 8px;
+    border-radius: 8px;
+    font-size: 0.9em;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    text-align: center;
+   
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    align-items: flex-start;
+}
+
+/* hover */
+.javascript:hover {
+  
+    box-shadow: 0 0px 6px rgb(255, 255, 5);
+    transform: translateY(-2px);
+    cursor: pointer;
+}
+
+
+
+/* spans */
+.javascript span {
+    text-align: center;
+    color: #ffffff;
+    
+    transition: all 0.4s ease;
+}
+
+.javascript span:hover {
+    color: #ffffffa7;
+}
+
+/* título */
+.javascript h2 {
+    font-size: 2em;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #F7DF1E;
+    font-weight: 700;
+    line-height: 1.2;
+    transition: color 0.3s ease, transform 0.3s ease;
+    text-align: center;
+}
+
+.javascript h2:hover {
+    color: #ffef74;
+    transform: scale(1.05);
+}
+
+/* parágrafos */
+.javascript p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    color: #ffffff;
+    transition: color 0.3s ease;
+    text-align: left;
+}
+
+.logo-container p {
+     font-size: 1.4em;
+}
+
+.javascript p:hover {
+    color: #ffffffa7;
+}
+
+/* imagem principal */
+.javascript img {
+    width: 100%;
+    height: 40vh;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+}
+
+.javascript img:hover {
+    transform: scale(1.02);
+}
+
+/* botão */
+.javascript a {
+    display: inline-block;
+    text-decoration: none;
+    color: #323330;
+    font-weight: bold;
+    background-color: #ffd23f;
+    padding: 10px 20px;
+    margin-left: 25px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+}
+
+.javascript a:hover {
+    background-color: #323330;
+    color: #ffd23f;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 12px rgba(0,0,0,0.3);
+}
+
+/* ------------------------------ */
+/*          NOVO BLOCO            */
+/*  LOGO À DIREITA + TEXTO EMBAIXO */
+/* ------------------------------ */
+
+.logo-container {
+  padding: 10px;
+}
+
+.javascript .logo {
+     margin-bottom: 10px;
+    transition: transform 0.3s ease;
+}
+
+.javascript .logo:hover {
+    transform: scale(1.05);
+}
+
+.texto-logo {
+    color: white;
+    font-size: 1em;
+     margin: 0; 
+   
+}
+
+
+/* responsividade */
+
+/* Media Query para dispositivos móveis (ex: até 600px de largura) */
+@media (max-width: 600px) {
+    /* Faz os dois blocos (javascript e logo-container) ficarem um embaixo do outro */
+    .container {
+        flex-direction: column;
+        /* Garante que ocupem a largura total do container pai */
+        width: 100%; 
+        /* Alinha o conteúdo ao centro quando empilhado */
+        align-items: center; 
+    }
+
+    /* parágrafos */
+.javascript p {
+    font-size: 0.8em;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    color: #ffffff;
+    transition: color 0.3s ease;
+    text-align: left;
+}
+
+.logo-container p {
+     font-size: 0.8em;
+}
+    /* Opcional: Garante que os blocos filhos ocupem a largura total na visualização móvel */
+    .javascript, 
+    .logo-container {
+        width: 100%;
+        margin-bottom: 20px; /* Adiciona espaço entre os blocos empilhados */
+    }
+    
+    /* Ajuste para a imagem da logo que estava muito pequena */
+    .logo {
+        width: 50%; /* Torna a logo mais visível no celular */
+        height: auto;
+        display: block; /* Garante que a margem auto funcione para centralizar se necessário */
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* O botão que tinha margin-left */
+    .javascript a {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+}
+
+
+/* Media Queries existentes (mantidas, mas ajustadas para não conflitar) */
+@media (max-width: 768px) {
+    .javascript {
+        font-size: 1em;
+        padding: 12px 15px;
+    }
+
+    .container {
+        flex-direction: column;
+        
+        width: 100%; 
+       
+        align-items: center; 
+    }
+
+    /* parágrafos */
+.javascript p {
+    font-size: 0.8em;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    color: #ffffff;
+    transition: color 0.3s ease;
+    text-align: left;
+}
+
+.logo-container p {
+     font-size: 0.8em;
+}
+}
+
+@media (min-width: 768px) {
+    .javascript {
+        font-size: 1em;
+        padding: 12px 15px;
+    }
+
+    .container {
+        flex-direction: column;
+        
+        width: 100%; 
+       
+        align-items: center; 
+    }
+
+  .logo-container img {
+    width: 50%;
+    height: 15vw;
+  }
+
+    /* parágrafos */
+.javascript p {
+    font-size: 0.8em;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    color: #ffffff;
+    transition: color 0.3s ease;
+    text-align: left;
+}
+
+.logo-container p {
+     font-size: 0.8em;
+}
+}
+
+
+@media (min-width: 900px) {
+
+    .javascript {
+       
+        padding: 12px 15px;
+    }
+
+   .logo-container img {
+    width: 80%;
+    height: 20vw;
+  }
+
+    .container {
+        flex-direction: row;
+        
+        width: 100%; 
+       
+        align-items: start; 
+    }
+
+    .javascript a {
+        margin-left: 5px;
+        margin-top: 15px;
+    }
+
+    /* parágrafos */
+.javascript p {
+    font-size: 0.7em;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    color: #ffffff;
+    transition: color 0.3s ease;
+    text-align: left;
+}
+
+.logo-container p {
+     font-size: 1.1em;
+}
+}
+
+
+@media (max-width: 480px) {
+    .javascript {
+        font-size: 0.9em;
+        padding: 10px 12px;
+    }
+}
+
+/* python */
+.python {
+    background-color: rgba(4, 30, 66, 0.2);
+    color: #323330;
+    padding: 5px 8px;
+    border-radius: 8px;
+    font-size: 0.9em;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    text-align: center;
+}
+.python:hover {
+    box-shadow: 0 0px 6px #FFD43B;
+    transform: translateY(-2px);
+    cursor: pointer;
+}
+.python span {
+    text-align: center;
+    color: #ffffff;
+    transition: all 0.4s ease;
+}
+.python span:hover {
+    color: #ffffffa7;
+}
+.python h2 {
+    font-size: 2em;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #FFD43B;
+    font-weight: 700;
+    line-height: 1.2;
+    transition: color 0.3s ease, transform 0.3s ease;
+    text-align: center;
+}
+.python h2:hover {
+    color: #FFD43B;
+    transform: scale(1.05);
+}
+.python p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    color: #ffffff;
+    transition: color 0.3s ease;
+    text-align: left;
+}
+.python p:hover {
+    color: #ffffffa7;
+}
+.python img {
+    width: 100%;
+    height: 40vh;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+}
+.python img:hover {
+    transform: scale(1.02);
+}
+.python a {
+    display: inline-block;
+    text-decoration: none;
+    color: #041E42;
+    font-weight: bold;
+    background-color: #FFD43B;
+    padding: 10px 20px;
+    margin-left: 25px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+}
+.python a:hover {
+    background-color: #041E42;
+    color: #FFD43B;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 12px rgba(0,0,0,0.3);
+}
+
+/* html */
+.html {
+    background-color: rgba(227, 79, 38, 0.2);
+    color: #323330;
+    padding: 5px 8px;
+    border-radius: 8px;
+    font-size: 0.9em;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    text-align: center;
+}
+.html:hover {
+    box-shadow: 0 0px 6px #E44F26;
+    transform: translateY(-2px);
+    cursor: pointer;
+}
+.html span {
+    text-align: center;
+    color: #ffffff;
+    transition: all 0.4s ease;
+}
+.html span:hover {
+    color: #ffffffa7;
+}
+.html h2 {
+    font-size: 2em;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #E44F26;
+    font-weight: 700;
+    line-height: 1.2;
+    transition: color 0.3s ease, transform 0.3s ease;
+    text-align: center;
+}
+.html h2:hover {
+    color: #E44F26;
+    transform: scale(1.05);
+}
+.html p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    color: #ffffff;
+    transition: color 0.3s ease;
+    text-align: left;
+}
+.html p:hover {
+    color: #ffffffa7;
+}
+.html img {
+    width: 100%;
+    height: 40vh;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+}
+.html img:hover {
+    transform: scale(1.02);
+}
+.html a {
+    display: inline-block;
+    text-decoration: none;
+    color: #E44F26;
+    font-weight: bold;
+    background-color: white;
+    padding: 10px 20px;
+    margin-left: 25px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+}
+.html a:hover {
+    background-color: #E44F26;
+    color: white;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 12px rgba(0,0,0,0.3);
+}
+
+/* css */
+.css {
+    background-color: rgba(21, 114, 182, 0.2);
+    color: #323330;
+    padding: 5px 8px;
+    border-radius: 8px;
+    font-size: 0.9em;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    text-align: center;
+}
+.css:hover {
+    box-shadow: 0 0px 6px #1572B6;
+    transform: translateY(-2px);
+    cursor: pointer;
+}
+.css span {
+    text-align: center;
+    color: #ffffff;
+    transition: all 0.4s ease;
+}
+.css span:hover {
+    color: #ffffffa7;
+}
+.css h2 {
+    font-size: 2em;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #1572B6;
+    font-weight: 700;
+    line-height: 1.2;
+    transition: color 0.3s ease, transform 0.3s ease;
+    text-align: center;
+}
+.css h2:hover {
+    color: #1572B6;
+    transform: scale(1.05);
+}
+.css p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    color: #ffffff;
+    transition: color 0.3s ease;
+    text-align: left;
+}
+.css p:hover {
+    color: #ffffffa7;
+}
+.css img {
+    width: 100%;
+    height: 40vh;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+}
+.css img:hover {
+    transform: scale(1.02);
+}
+.css a {
+    display: inline-block;
+    text-decoration: none;
+    color: #1572B6;
+    font-weight: bold;
+    background-color: white;
+    padding: 10px 20px;
+    margin-left: 25px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+}
+.css a:hover {
+    background-color: #1572B6;
+    color: white;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 12px rgba(0,0,0,0.3);
+}
+
+/* json */
+.json {
+    background-color: rgba(0, 0, 0, 0.2);
+    color: #323330;
+    padding: 5px 8px;
+    border-radius: 8px;
+    font-size: 0.9em;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    text-align: center;
+}
+.json:hover {
+    box-shadow: 0 0px 6px #AAAAAA;
+    transform: translateY(-2px);
+    cursor: pointer;
+}
+.json span {
+    text-align: center;
+    color: #ffffff;
+    transition: all 0.4s ease;
+}
+.json span:hover {
+    color: #ffffffa7;
+}
+.json h2 {
+    font-size: 2em;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #AAAAAA;
+    font-weight: 700;
+    line-height: 1.2;
+    transition: color 0.3s ease, transform 0.3s ease;
+    text-align: center;
+}
+.json h2:hover {
+    color: #AAAAAA;
+    transform: scale(1.05);
+}
+.json p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    color: #ffffff;
+    transition: color 0.3s ease;
+    text-align: left;
+}
+.json p:hover {
+    color: #ffffffa7;
+}
+.json img {
+    width: 100%;
+    height: 40vh;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+}
+.json img:hover {
+    transform: scale(1.02);
+}
+.json a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    background-color: #AAAAAA;
+    padding: 10px 20px;
+    margin-left: 25px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+}
+.json a:hover {
+    background-color: black;
+    color: #AAAAAA;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 12px rgba(0,0,0,0.3);
+}
+
+/* java */
+.java {
+    background-color: rgba(248, 150, 29, 0.2);
+    color: #323330;
+    padding: 5px 8px;
+    border-radius: 8px;
+    font-size: 0.9em;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    text-align: center;
+}
+.java:hover {
+    box-shadow: 0 0px 6px #f8961d;
+    transform: translateY(-2px);
+    cursor: pointer;
+}
+.java span {
+    text-align: center;
+    color: #ffffff;
+    transition: all 0.4s ease;
+}
+.java span:hover {
+    color: #ffffffa7;
+}
+.java h2 {
+    font-size: 2em;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #f8961d;
+    font-weight: 700;
+    line-height: 1.2;
+    transition: color 0.3s ease, transform 0.3s ease;
+    text-align: center;
+}
+.java h2:hover {
+    color: #f8961d;
+    transform: scale(1.05);
+}
+.java p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    color: #ffffff;
+    transition: color 0.3s ease;
+    text-align: left;
+}
+.java p:hover {
+    color: #ffffffa7;
+}
+.java img {
+    width: 100%;
+    height: 40vh;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+}
+.java img:hover {
+    transform: scale(1.02);
+}
+.java a {
+    display: inline-block;
+    text-decoration: none;
+    color: #f8961d;
+    font-weight: bold;
+    background-color: white;
+    padding: 10px 20px;
+    margin-left: 25px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+}
+.java a:hover {
+    background-color: #f8961d;
+    color: white;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 12px rgba(0,0,0,0.3);
+}
+
+/* cplusplus */
+.cplusplus {
+    background-color: rgba(0, 66, 117, 0.2);
+    color: #323330;
+    padding: 5px 8px;
+    border-radius: 8px;
+    font-size: 0.9em;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    text-align: center;
+}
+.cplusplus:hover {
+    box-shadow: 0 0px 6px #004275;
+    transform: translateY(-2px);
+    cursor: pointer;
+}
+.cplusplus span {
+    text-align: center;
+    color: #ffffff;
+    transition: all 0.4s ease;
+}
+.cplusplus span:hover {
+    color: #ffffffa7;
+}
+.cplusplus h2 {
+    font-size: 2em;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #004275;
+    font-weight: 700;
+    line-height: 1.2;
+    transition: color 0.3s ease, transform 0.3s ease;
+    text-align: center;
+}
+.cplusplus h2:hover {
+    color: #004275;
+    transform: scale(1.05);
+}
+.cplusplus p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    color: #ffffff;
+    transition: color 0.3s ease;
+    text-align: left;
+}
+.cplusplus p:hover {
+    color: #ffffffa7;
+}
+.cplusplus img {
+    width: 100%;
+    height: 40vh;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+}
+.cplusplus img:hover {
+    transform: scale(1.02);
+}
+.cplusplus a {
+    display: inline-block;
+    text-decoration: none;
+    color: #004275;
+    font-weight: bold;
+    background-color: white;
+    padding: 10px 20px;
+    margin-left: 25px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+}
+.cplusplus a:hover {
+    background-color: #004275;
+    color: white;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 12px rgba(0,0,0,0.3);
+}
+
+/* c */
+.c {
+    background-color: rgba(168, 168, 168, 0.2);
+    color: #323330;
+    padding: 5px 8px;
+    border-radius: 8px;
+    font-size: 0.9em;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    text-align: center;
+}
+.c:hover {
+    box-shadow: 0 0px 6px #A8A8A8;
+    transform: translateY(-2px);
+    cursor: pointer;
+}
+.c span {
+    text-align: center;
+    color: #ffffff;
+    transition: all 0.4s ease;
+}
+.c span:hover {
+    color: #ffffffa7;
+}
+.c h2 {
+    font-size: 2em;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #A8A8A8;
+    font-weight: 700;
+    line-height: 1.2;
+    transition: color 0.3s ease, transform 0.3s ease;
+    text-align: center;
+}
+.c h2:hover {
+    color: #A8A8A8;
+    transform: scale(1.05);
+}
+.c p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    color: #ffffff;
+    transition: color 0.3s ease;
+    text-align: left;
+}
+.c p:hover {
+    color: #ffffffa7;
+}
+.c img {
+    width: 100%;
+    height: 40vh;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+}
+.c img:hover {
+    transform: scale(1.02);
+}
+.c a {
+    display: inline-block;
+    text-decoration: none;
+    color: #A8A8A8;
+    font-weight: bold;
+    background-color: white;
+    padding: 10px 20px;
+    margin-left: 25px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+}
+.c a:hover {
+    background-color: #A8A8A8;
+    color: white;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 12px rgba(0,0,0,0.3);
+}
+
+/* csharp */
+.csharp {
+    background-color: rgba(104, 49, 149, 0.2);
+    color: #323330;
+    padding: 5px 8px;
+    border-radius: 8px;
+    font-size: 0.9em;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    text-align: center;
+}
+.csharp:hover {
+    box-shadow: 0 0px 6px #683195;
+    transform: translateY(-2px);
+    cursor: pointer;
+}
+.csharp span {
+    text-align: center;
+    color: #ffffff;
+    transition: all 0.4s ease;
+}
+.csharp span:hover {
+    color: #ffffffa7;
+}
+.csharp h2 {
+    font-size: 2em;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #683195;
+    font-weight: 700;
+    line-height: 1.2;
+    transition: color 0.3s ease, transform 0.3s ease;
+    text-align: center;
+}
+.csharp h2:hover {
+    color: #683195;
+    transform: scale(1.05);
+}
+.csharp p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    color: #ffffff;
+    transition: color 0.3s ease;
+    text-align: left;
+}
+.csharp p:hover {
+    color: #ffffffa7;
+}
+.csharp img {
+    width: 100%;
+    height: 40vh;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+}
+.csharp img:hover {
+    transform: scale(1.02);
+}
+.csharp a {
+    display: inline-block;
+    text-decoration: none;
+    color: #683195;
+    font-weight: bold;
+    background-color: white;
+    padding: 10px 20px;
+    margin-left: 25px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+}
+.csharp a:hover {
+    background-color: #683195;
+    color: white;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 12px rgba(0,0,0,0.3);
+}
+
+/* php */
+.php {
+    background-color: rgba(119, 123, 179, 0.2);
+    color: #323330;
+    padding: 5px 8px;
+    border-radius: 8px;
+    font-size: 0.9em;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    text-align: center;
+}
+.php:hover {
+    box-shadow: 0 0px 6px #777BB3;
+    transform: translateY(-2px);
+    cursor: pointer;
+}
+.php span {
+    text-align: center;
+    color: #ffffff;
+    transition: all 0.4s ease;
+}
+.php span:hover {
+    color: #ffffffa7;
+}
+.php h2 {
+    font-size: 2em;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #777BB3;
+    font-weight: 700;
+    line-height: 1.2;
+    transition: color 0.3s ease, transform 0.3s ease;
+    text-align: center;
+}
+.php h2:hover {
+    color: #777BB3;
+    transform: scale(1.05);
+}
+.php p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    color: #ffffff;
+    transition: color 0.3s ease;
+    text-align: left;
+}
+.php p:hover {
+    color: #ffffffa7;
+}
+.php img {
+    width: 100%;
+    height: 40vh;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+}
+.php img:hover {
+    transform: scale(1.02);
+}
+.php a {
+    display: inline-block;
+    text-decoration: none;
+    color: #777BB3;
+    font-weight: bold;
+    background-color: white;
+    padding: 10px 20px;
+    margin-left: 25px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+}
+.php a:hover {
+    background-color: #777BB3;
+    color: white;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 12px rgba(0,0,0,0.3);
+}
+
+/* ruby */
+.ruby {
+    background-color: rgba(204, 39, 40, 0.2);
+    color: #323330;
+    padding: 5px 8px;
+    border-radius: 8px;
+    font-size: 0.9em;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    text-align: center;
+}
+.ruby:hover {
+    box-shadow: 0 0px 6px #CC2728;
+    transform: translateY(-2px);
+    cursor: pointer;
+}
+.ruby span {
+    text-align: center;
+    color: #ffffff;
+    transition: all 0.4s ease;
+}
+.ruby span:hover {
+    color: #ffffffa7;
+}
+.ruby h2 {
+    font-size: 2em;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #CC2728;
+    font-weight: 700;
+    line-height: 1.2;
+    transition: color 0.3s ease, transform 0.3s ease;
+    text-align: center;
+}
+.ruby h2:hover {
+    color: #CC2728;
+    transform: scale(1.05);
+}
+.ruby p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    color: #ffffff;
+    transition: color 0.3s ease;
+    text-align: left;
+}
+.ruby p:hover {
+    color: #ffffffa7;
+}
+.ruby img {
+    width: 100%;
+    height: 40vh;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+}
+.ruby img:hover {
+    transform: scale(1.02);
+}
+.ruby a {
+    display: inline-block;
+    text-decoration: none;
+    color: #CC2728;
+    font-weight: bold;
+    background-color: white;
+    padding: 10px 20px;
+    margin-left: 25px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+}
+.ruby a:hover {
+    background-color: #CC2728;
+    color: white;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 12px rgba(0,0,0,0.3);
+}
+
+/* go */
+.go {
+    background-color: rgba(0, 173, 216, 0.2);
+    color: #323330;
+    padding: 5px 8px;
+    border-radius: 8px;
+    font-size: 0.9em;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    text-align: center;
+}
+.go:hover {
+    box-shadow: 0 0px 6px #00ADD8;
+    transform: translateY(-2px);
+    cursor: pointer;
+}
+.go span {
+    text-align: center;
+    color: #ffffff;
+    transition: all 0.4s ease;
+}
+.go span:hover {
+    color: #ffffffa7;
+}
+.go h2 {
+    font-size: 2em;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #00ADD8;
+    font-weight: 700;
+    line-height: 1.2;
+    transition: color 0.3s ease, transform 0.3s ease;
+    text-align: center;
+}
+.go h2:hover {
+    color: #00ADD8;
+    transform: scale(1.05);
+}
+.go p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    color: #ffffff;
+    transition: color 0.3s ease;
+    text-align: left;
+}
+.go p:hover {
+    color: #ffffffa7;
+}
+.go img {
+    width: 100%;
+    height: 40vh;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+}
+.go img:hover {
+    transform: scale(1.02);
+}
+.go a {
+    display: inline-block;
+    text-decoration: none;
+    color: #00ADD8;
+    font-weight: bold;
+    background-color: white;
+    padding: 10px 20px;
+    margin-left: 25px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+}
+.go a:hover {
+    background-color: #00ADD8;
+    color: white;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 12px rgba(0,0,0,0.3);
+}
+
+/* swift */
+.swift {
+    background-color: rgba(240, 84, 43, 0.2);
+    color: #323330;
+    padding: 5px 8px;
+    border-radius: 8px;
+    font-size: 0.9em;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    text-align: center;
+}
+.swift:hover {
+    box-shadow: 0 0px 6px #F0542B;
+    transform: translateY(-2px);
+    cursor: pointer;
+}
+.swift span {
+    text-align: center;
+    color: #ffffff;
+    transition: all 0.4s ease;
+}
+.swift span:hover {
+    color: #ffffffa7;
+}
+.swift h2 {
+    font-size: 2em;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #F0542B;
+    font-weight: 700;
+    line-height: 1.2;
+    transition: color 0.3s ease, transform 0.3s ease;
+    text-align: center;
+}
+.swift h2:hover {
+    color: #F0542B;
+    transform: scale(1.05);
+}
+.swift p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    color: #ffffff;
+    transition: color 0.3s ease;
+    text-align: left;
+}
+.swift p:hover {
+    color: #ffffffa7;
+}
+.swift img {
+    width: 100%;
+    height: 40vh;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+}
+.swift img:hover {
+    transform: scale(1.02);
+}
+.swift a {
+    display: inline-block;
+    text-decoration: none;
+    color: #F0542B;
+    font-weight: bold;
+    background-color: white;
+    padding: 10px 20px;
+    margin-left: 25px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+}
+.swift a:hover {
+    background-color: #F0542B;
+    color: white;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 12px rgba(0,0,0,0.3);
+}
+
+/* kotlin */
+.kotlin {
+    background-color: rgba(117, 85, 228, 0.2);
+    color: #323330;
+    padding: 5px 8px;
+    border-radius: 8px;
+    font-size: 0.9em;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    text-align: center;
+}
+.kotlin:hover {
+    box-shadow: 0 0px 6px #7555E4;
+    transform: translateY(-2px);
+    cursor: pointer;
+}
+.kotlin span {
+    text-align: center;
+    color: #ffffff;
+    transition: all 0.4s ease;
+}
+.kotlin span:hover {
+    color: #ffffffa7;
+}
+.kotlin h2 {
+    font-size: 2em;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #7555E4;
+    font-weight: 700;
+    line-height: 1.2;
+    transition: color 0.3s ease, transform 0.3s ease;
+    text-align: center;
+}
+.kotlin h2:hover {
+    color: #7555E4;
+    transform: scale(1.05);
+}
+.kotlin p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    color: #ffffff;
+    transition: color 0.3s ease;
+    text-align: left;
+}
+.kotlin p:hover {
+    color: #ffffffa7;
+}
+.kotlin img {
+    width: 100%;
+    height: 40vh;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+}
+.kotlin img:hover {
+    transform: scale(1.02);
+}
+.kotlin a {
+    display: inline-block;
+    text-decoration: none;
+    color: #7555E4;
+    font-weight: bold;
+    background-color: white;
+    padding: 10px 20px;
+    margin-left: 25px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+}
+.kotlin a:hover {
+    background-color: #7555E4;
+    color: white;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 12px rgba(0,0,0,0.3);
+}
+
+/* typescript */
+.typescript {
+    background-color: rgba(0, 122, 204, 0.2);
+    color: #323330;
+    padding: 5px 8px;
+    border-radius: 8px;
+    font-size: 0.9em;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    text-align: center;
+}
+.typescript:hover {
+    box-shadow: 0 0px 6px #007ACC;
+    transform: translateY(-2px);
+    cursor: pointer;
+}
+.typescript span {
+    text-align: center;
+    color: #ffffff;
+    transition: all 0.4s ease;
+}
+.typescript span:hover {
+    color: #ffffffa7;
+}
+.typescript h2 {
+    font-size: 2em;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #007ACC;
+    font-weight: 700;
+    line-height: 1.2;
+    transition: color 0.3s ease, transform 0.3s ease;
+    text-align: center;
+}
+.typescript h2:hover {
+    color: #007ACC;
+    transform: scale(1.05);
+}
+.typescript p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    color: #ffffff;
+    transition: color 0.3s ease;
+    text-align: left;
+}
+.typescript p:hover {
+    color: #ffffffa7;
+}
+.typescript img {
+    width: 100%;
+    height: 40vh;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+}
+.typescript img:hover {
+    transform: scale(1.02);
+}
+.typescript a {
+    display: inline-block;
+    text-decoration: none;
+    color: #007ACC;
+    font-weight: bold;
+    background-color: white;
+    padding: 10px 20px;
+    margin-left: 25px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+}
+.typescript a:hover {
+    background-color: #007ACC;
+    color: white;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 12px rgba(0,0,0,0.3);
+}
+
+/* rust */
+.rust {
+    background-color: rgba(222, 105, 5, 0.2);
+    color: #323330;
+    padding: 5px 8px;
+    border-radius: 8px;
+    font-size: 0.9em;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    text-align: center;
+}
+.rust:hover {
+    box-shadow: 0 0px 6px #DE6905;
+    transform: translateY(-2px);
+    cursor: pointer;
+}
+.rust span {
+    text-align: center;
+    color: #ffffff;
+    transition: all 0.4s ease;
+}
+.rust span:hover {
+    color: #ffffffa7;
+}
+.rust h2 {
+    font-size: 2em;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #DE6905;
+    font-weight: 700;
+    line-height: 1.2;
+    transition: color 0.3s ease, transform 0.3s ease;
+    text-align: center;
+}
+.rust h2:hover {
+    color: #DE6905;
+    transform: scale(1.05);
+}
+.rust p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    color: #ffffff;
+    transition: color 0.3s ease;
+    text-align: left;
+}
+.rust p:hover {
+    color: #ffffffa7;
+}
+.rust img {
+    width: 100%;
+    height: 40vh;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+}
+.rust img:hover {
+    transform: scale(1.02);
+}
+.rust a {
+    display: inline-block;
+    text-decoration: none;
+    color: #DE6905;
+    font-weight: bold;
+    background-color: white;
+    padding: 10px 20px;
+    margin-left: 25px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+}
+.rust a:hover {
+    background-color: #DE6905;
+    color: white;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 12px rgba(0,0,0,0.3);
+}
+
+/* scala */
+.scala {
+    background-color: rgba(220, 52, 51, 0.2);
+    color: #323330;
+    padding: 5px 8px;
+    border-radius: 8px;
+    font-size: 0.9em;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    text-align: center;
+}
+.scala:hover {
+    box-shadow: 0 0px 6px #DC3433;
+    transform: translateY(-2px);
+    cursor: pointer;
+}
+.scala span {
+    text-align: center;
+    color: #ffffff;
+    transition: all 0.4s ease;
+}
+.scala span:hover {
+    color: #ffffffa7;
+}
+.scala h2 {
+    font-size: 2em;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #DC3433;
+    font-weight: 700;
+    line-height: 1.2;
+    transition: color 0.3s ease, transform 0.3s ease;
+    text-align: center;
+}
+.scala h2:hover {
+    color: #DC3433;
+    transform: scale(1.05);
+}
+.scala p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    color: #ffffff;
+    transition: color 0.3s ease;
+    text-align: left;
+}
+.scala p:hover {
+    color: #ffffffa7;
+}
+.scala img {
+    width: 100%;
+    height: 40vh;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+}
+.scala img:hover {
+    transform: scale(1.02);
+}
+.scala a {
+    display: inline-block;
+    text-decoration: none;
+    color: #DC3433;
+    font-weight: bold;
+    background-color: white;
+    padding: 10px 20px;
+    margin-left: 25px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+}
+.scala a:hover {
+    background-color: #DC3433;
+    color: white;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 12px rgba(0,0,0,0.3);
+}
+
+/* perl */
+.perl {
+    background-color: rgba(0, 102, 153, 0.2);
+    color: #323330;
+    padding: 5px 8px;
+    border-radius: 8px;
+    font-size: 0.9em;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    text-align: center;
+}
+.perl:hover {
+    box-shadow: 0 0px 6px #006699;
+    transform: translateY(-2px);
+    cursor: pointer;
+}
+.perl span {
+    text-align: center;
+    color: #ffffff;
+    transition: all 0.4s ease;
+}
+.perl span:hover {
+    color: #ffffffa7;
+}
+.perl h2 {
+    font-size: 2em;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #006699;
+    font-weight: 700;
+    line-height: 1.2;
+    transition: color 0.3s ease, transform 0.3s ease;
+    text-align: center;
+}
+.perl h2:hover {
+    color: #006699;
+    transform: scale(1.05);
+}
+.perl p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    color: #ffffff;
+    transition: color 0.3s ease;
+    text-align: left;
+}
+.perl p:hover {
+    color: #ffffffa7;
+}
+.perl img {
+    width: 100%;
+    height: 40vh;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+}
+.perl img:hover {
+    transform: scale(1.02);
+}
+.perl a {
+    display: inline-block;
+    text-decoration: none;
+    color: #006699;
+    font-weight: bold;
+    background-color: white;
+    padding: 10px 20px;
+    margin-left: 25px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+}
+.perl a:hover {
+    background-color: #006699;
+    color: white;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 12px rgba(0,0,0,0.3);
+}
+
+/* lua */
+.lua {
+    background-color: rgba(0, 0, 128, 0.2);
+    color: #323330;
+    padding: 5px 8px;
+    border-radius: 8px;
+    font-size: 0.9em;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    text-align: center;
+}
+.lua:hover {
+    box-shadow: 0 0px 6px #000080;
+    transform: translateY(-2px);
+    cursor: pointer;
+}
+.lua span {
+    text-align: center;
+    color: #ffffff;
+    transition: all 0.4s ease;
+}
+.lua span:hover {
+    color: #ffffffa7;
+}
+.lua h2 {
+    font-size: 2em;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #000080;
+    font-weight: 700;
+    line-height: 1.2;
+    transition: color 0.3s ease, transform 0.3s ease;
+    text-align: center;
+}
+.lua h2:hover {
+    color: #000080;
+    transform: scale(1.05);
+}
+.lua p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    color: #ffffff;
+    transition: color 0.3s ease;
+    text-align: left;
+}
+.lua p:hover {
+    color: #ffffffa7;
+}
+.lua img {
+    width: 100%;
+    height: 40vh;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+}
+.lua img:hover {
+    transform: scale(1.02);
+}
+.lua a {
+    display: inline-block;
+    text-decoration: none;
+    color: #000080;
+    font-weight: bold;
+    background-color: white;
+    padding: 10px 20px;
+    margin-left: 25px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+}
+.lua a:hover {
+    background-color: #000080;
+    color: white;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 12px rgba(0,0,0,0.3);
+}
+
+/* haskell */
+.haskell {
+    background-color: rgba(94, 80, 134, 0.2);
+    color: #323330;
+    padding: 5px 8px;
+    border-radius: 8px;
+    font-size: 0.9em;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    text-align: center;
+}
+.haskell:hover {
+    box-shadow: 0 0px 6px #5E5086;
+    transform: translateY(-2px);
+    cursor: pointer;
+}
+.haskell span {
+    text-align: center;
+    color: #ffffff;
+    transition: all 0.4s ease;
+}
+.haskell span:hover {
+    color: #ffffffa7;
+}
+.haskell h2 {
+    font-size: 2em;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #5E5086;
+    font-weight: 700;
+    line-height: 1.2;
+    transition: color 0.3s ease, transform 0.3s ease;
+    text-align: center;
+}
+.haskell h2:hover {
+    color: #5E5086;
+    transform: scale(1.05);
+}
+.haskell p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    color: #ffffff;
+    transition: color 0.3s ease;
+    text-align: left;
+}
+.haskell p:hover {
+    color: #ffffffa7;
+}
+.haskell img {
+    width: 100%;
+    height: 40vh;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+}
+.haskell img:hover {
+    transform: scale(1.02);
+}
+.haskell a {
+    display: inline-block;
+    text-decoration: none;
+    color: #5E5086;
+    font-weight: bold;
+    background-color: white;
+    padding: 10px 20px;
+    margin-left: 25px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+}
+.haskell a:hover {
+    background-color: #5E5086;
+    color: white;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 12px rgba(0,0,0,0.3);
+}
+
+/* r */
+.r {
+    background-color: rgba(37, 109, 183, 0.2);
+    color: #323330;
+    padding: 5px 8px;
+    border-radius: 8px;
+    font-size: 0.9em;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    text-align: center;
+}
+.r:hover {
+    box-shadow: 0 0px 6px #256DB7;
+    transform: translateY(-2px);
+    cursor: pointer;
+}
+.r span {
+    text-align: center;
+    color: #ffffff;
+    transition: all 0.4s ease;
+}
+.r span:hover {
+    color: #ffffffa7;
+}
+.r h2 {
+    font-size: 2em;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #256DB7;
+    font-weight: 700;
+    line-height: 1.2;
+    transition: color 0.3s ease, transform 0.3s ease;
+    text-align: center;
+}
+.r h2:hover {
+    color: #256DB7;
+    transform: scale(1.05);
+}
+.r p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    color: #ffffff;
+    transition: color 0.3s ease;
+    text-align: left;
+}
+.r p:hover {
+    color: #ffffffa7;
+}
+.r img {
+    width: 100%;
+    height: 40vh;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+}
+.r img:hover {
+    transform: scale(1.02);
+}
+.r a {
+    display: inline-block;
+    text-decoration: none;
+    color: #256DB7;
+    font-weight: bold;
+    background-color: white;
+    padding: 10px 20px;
+    margin-left: 25px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+}
+.r a:hover {
+    background-color: #256DB7;
+    color: white;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 12px rgba(0,0,0,0.3);
+}
+
+/* matlab */
+.matlab {
+    background-color: rgba(255, 127, 0, 0.2);
+    color: #323330;
+    padding: 5px 8px;
+    border-radius: 8px;
+    font-size: 0.9em;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    text-align: center;
+}
+.matlab:hover {
+    box-shadow: 0 0px 6px #FF7F00;
+    transform: translateY(-2px);
+    cursor: pointer;
+}
+.matlab span {
+    text-align: center;
+    color: #ffffff;
+    transition: all 0.4s ease;
+}
+.matlab span:hover {
+    color: #ffffffa7;
+}
+.matlab h2 {
+    font-size: 2em;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #FF7F00;
+    font-weight: 700;
+    line-height: 1.2;
+    transition: color 0.3s ease, transform 0.3s ease;
+    text-align: center;
+}
+.matlab h2:hover {
+    color: #FF7F00;
+    transform: scale(1.05);
+}
+.matlab p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    color: #ffffff;
+    transition: color 0.3s ease;
+    text-align: left;
+}
+.matlab p:hover {
+    color: #ffffffa7;
+}
+.matlab img {
+    width: 100%;
+    height: 40vh;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+}
+.matlab img:hover {
+    transform: scale(1.02);
+}
+.matlab a {
+    display: inline-block;
+    text-decoration: none;
+    color: #FF7F00;
+    font-weight: bold;
+    background-color: white;
+    padding: 10px 20px;
+    margin-left: 25px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+}
+.matlab a:hover {
+    background-color: #FF7F00;
+    color: white;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 12px rgba(0,0,0,0.3);
+}
+
+/* sql */
+.sql {
+    background-color: rgba(128, 128, 128, 0.2);
+    color: #323330;
+    padding: 5px 8px;
+    border-radius: 8px;
+    font-size: 0.9em;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    text-align: center;
+}
+.sql:hover {
+    box-shadow: 0 0px 6px #808080;
+    transform: translateY(-2px);
+    cursor: pointer;
+}
+.sql span {
+    text-align: center;
+    color: #ffffff;
+    transition: all 0.4s ease;
+}
+.sql span:hover {
+    color: #ffffffa7;
+}
+.sql h2 {
+    font-size: 2em;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #808080;
+    font-weight: 700;
+    line-height: 1.2;
+    transition: color 0.3s ease, transform 0.3s ease;
+    text-align: center;
+}
+.sql h2:hover {
+    color: #808080;
+    transform: scale(1.05);
+}
+.sql p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    color: #ffffff;
+    transition: color 0.3s ease;
+    text-align: left;
+}
+.sql p:hover {
+    color: #ffffffa7;
+}
+.sql img {
+    width: 100%;
+    height: 40vh;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+}
+.sql img:hover {
+    transform: scale(1.02);
+}
+.sql a {
+    display: inline-block;
+    text-decoration: none;
+    color: #808080;
+    font-weight: bold;
+    background-color: white;
+    padding: 10px 20px;
+    margin-left: 25px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+}
+.sql a:hover {
+    background-color: #808080;
+    color: white;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 12px rgba(0,0,0,0.3);
+}
+
+/* assembly */
+.assembly {
+    background-color: rgba(110, 110, 110, 0.8);
+    color: #323330;
+    padding: 5px 8px;
+    border-radius: 8px;
+    font-size: 0.9em;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    text-align: center;
+}
+.assembly:hover {
+    box-shadow: 0 0px 6px #6E6E6E;
+    transform: translateY(-2px);
+    cursor: pointer;
+}
+.assembly span {
+    text-align: center;
+    color: #ffffff;
+    transition: all 0.4s ease;
+}
+.assembly span:hover {
+    color: #ffffffa7;
+}
+.assembly h2 {
+    font-size: 2em;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #938080;
+    font-weight: 700;
+    line-height: 1.2;
+    transition: color 0.3s ease, transform 0.3s ease;
+    text-align: center;
+}
+.assembly h2:hover {
+    color: #bdb6b6;
+    transform: scale(1.05);
+}
+.assembly p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    color: #ffffff;
+    transition: color 0.3s ease;
+    text-align: left;
+}
+.assembly p:hover {
+    color: #ffffffa7;
+}
+.assembly img {
+    width: 100%;
+    height: 40vh;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+}
+.assembly img:hover {
+    transform: scale(1.02);
+}
+.assembly a {
+    display: inline-block;
+    text-decoration: none;
+    color: #6E6E6E;
+    font-weight: bold;
+    background-color: white;
+    padding: 10px 20px;
+    margin-left: 25px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+}
+.assembly a:hover {
+    background-color: #6E6E6E;
+    color: white;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 12px rgba(0,0,0,0.3);
+}
+
+/* elixir */
+.elixir {
+    background-color: rgba(110, 71, 149, 0.8);
+    color: #323330;
+    padding: 5px 8px;
+    border-radius: 8px;
+    font-size: 0.9em;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    text-align: center;
+}
+.elixir:hover {
+    box-shadow: 0 0px 6px #6E4795;
+    transform: translateY(-2px);
+    cursor: pointer;
+}
+.elixir span {
+    text-align: center;
+    color: #ffffff;
+    transition: all 0.4s ease;
+}
+.elixir span:hover {
+    color: #ffffffa7;
+}
+.elixir h2 {
+    font-size: 2em;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #9b49ed;
+    font-weight: 700;
+    line-height: 1.2;
+    transition: color 0.3s ease, transform 0.3s ease;
+    text-align: center;
+}
+.elixir h2:hover {
+    color: #6722ac;
+    transform: scale(1.05);
+}
+.elixir p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    color: #ffffff;
+    transition: color 0.3s ease;
+    text-align: left;
+}
+.elixir p:hover {
+    color: #ffffffa7;
+}
+.elixir img {
+    width: 100%;
+    height: 40vh;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+}
+.elixir img:hover {
+    transform: scale(1.02);
+}
+.elixir a {
+    display: inline-block;
+    text-decoration: none;
+    color: #6E4795;
+    font-weight: bold;
+    background-color: white;
+    padding: 10px 20px;
+    margin-left: 25px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+}
+.elixir a:hover {
+    background-color: #6E4795;
+    color: white;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 12px rgba(0,0,0,0.3);
+}
+
+/* objectivec */
+.objectivec {
+    background-color: rgba(68, 142, 196, 0.8);
+    color: #323330;
+    padding: 5px 8px;
+    border-radius: 8px;
+    font-size: 0.9em;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    text-align: center;
+}
+.objectivec:hover {
+    box-shadow: 0 0px 6px #448EC4;
+    transform: translateY(-2px);
+    cursor: pointer;
+}
+.objectivec span {
+    text-align: center;
+    color: #ffffff;
+    transition: all 0.4s ease;
+}
+.objectivec span:hover {
+    color: #ffffffa7;
+}
+.objectivec h2 {
+    font-size: 2em;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #24a4ffbb;
+    font-weight: 700;
+    line-height: 1.2;
+    transition: color 0.3s ease, transform 0.3s ease;
+    text-align: center;
+}
+.objectivec h2:hover {
+    color: #448EC4;
+    transform: scale(1.05);
+}
+.objectivec p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    color: #ffffff;
+    transition: color 0.3s ease;
+    text-align: left;
+}
+.objectivec p:hover {
+    color: #ffffffa7;
+}
+.objectivec img {
+    width: 100%;
+    height: 40vh;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+}
+.objectivec img:hover {
+    transform: scale(1.02);
+}
+.objectivec a {
+    display: inline-block;
+    text-decoration: none;
+    color: #448EC4;
+    font-weight: bold;
+    background-color: white;
+    padding: 10px 20px;
+    margin-left: 25px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+}
+.objectivec a:hover {
+    background-color: #448EC4;
+    color: white;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 12px rgba(0,0,0,0.3);
+}
+
+/* groovy */
+.groovy {
+    background-color: rgba(66, 134, 186, 0.8);
+    color: #323330;
+    padding: 5px 8px;
+    border-radius: 8px;
+    font-size: 0.9em;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    text-align: center;
+}
+.groovy:hover {
+    box-shadow: 0 0px 6px #4286BA;
+    transform: translateY(-2px);
+    cursor: pointer;
+}
+.groovy span {
+    text-align: center;
+    color: #ffffff;
+    transition: all 0.4s ease;
+}
+.groovy span:hover {
+    color: #ffffffa7;
+}
+.groovy h2 {
+    font-size: 2em;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #1f7dc6a0;
+    font-weight: 700;
+    line-height: 1.2;
+    transition: color 0.3s ease, transform 0.3s ease;
+    text-align: center;
+}
+.groovy h2:hover {
+    color: #4286BA;
+    transform: scale(1.05);
+}
+.groovy p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    color: #ffffff;
+    transition: color 0.3s ease;
+    text-align: left;
+}
+.groovy p:hover {
+    color: #ffffffa7;
+}
+.groovy img {
+    width: 100%;
+    height: 40vh;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+}
+.groovy img:hover {
+    transform: scale(1.02);
+}
+.groovy a {
+    display: inline-block;
+    text-decoration: none;
+    color: #4286BA;
+    font-weight: bold;
+    background-color: white;
+    padding: 10px 20px;
+    margin-left: 25px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+}
+.groovy a:hover {
+    background-color: #4286BA;
+    color: white;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 12px rgba(0,0,0,0.3);
+}
+
+/* dart */
+.dart {
+    background-color: rgba(1, 214, 255, 0.8);
+    color: #323330;
+    padding: 5px 8px;
+    border-radius: 8px;
+    font-size: 0.9em;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    text-align: center;
+}
+.dart:hover {
+    box-shadow: 0 0px 6px #01D6FF;
+    transform: translateY(-2px);
+    cursor: pointer;
+}
+.dart span {
+    text-align: center;
+    color: #ffffff;
+    transition: all 0.4s ease;
+}
+.dart span:hover {
+    color: #ffffffa7;
+}
+.dart h2 {
+    font-size: 2em;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #01d5ff95;
+    font-weight: 700;
+    line-height: 1.2;
+    transition: color 0.3s ease, transform 0.3s ease;
+    text-align: center;
+}
+.dart h2:hover {
+    color: #01D6FF;
+    transform: scale(1.05);
+}
+.dart p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    color: #ffffff;
+    transition: color 0.3s ease;
+    text-align: left;
+}
+.dart p:hover {
+    color: #ffffffa7;
+}
+.dart img {
+    width: 100%;
+    height: 40vh;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+}
+.dart img:hover {
+    transform: scale(1.02);
+}
+.dart a {
+    display: inline-block;
+    text-decoration: none;
+    color: #01D6FF;
+    font-weight: bold;
+    background-color: white;
+    padding: 10px 20px;
+    margin-left: 25px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+}
+.dart a:hover {
+    background-color: #01D6FF;
+    color: white;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 12px rgba(0,0,0,0.3);
+}
+
+/* clojure */
+.clojure {
+    background-color: rgba(92, 188, 70, 0.8);
+    color: #323330;
+    padding: 5px 8px;
+    border-radius: 8px;
+    font-size: 0.9em;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    text-align: center;
+}
+.clojure:hover {
+    box-shadow: 0 0px 6px #5CBC46;
+    transform: translateY(-2px);
+    cursor: pointer;
+}
+.clojure span {
+    text-align: center;
+    color: #ffffff;
+    transition: all 0.4s ease;
+}
+.clojure span:hover {
+    color: #ffffffa7;
+}
+.clojure h2 {
+    font-size: 2em;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #5cbc46a4;
+    font-weight: 700;
+    line-height: 1.2;
+    transition: color 0.3s ease, transform 0.3s ease;
+    text-align: center;
+}
+.clojure h2:hover {
+    color: #5CBC46;
+    transform: scale(1.05);
+}
+.clojure p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    color: #ffffff;
+    transition: color 0.3s ease;
+    text-align: left;
+}
+.clojure p:hover {
+    color: #ffffffa7;
+}
+.clojure img {
+    width: 100%;
+    height: 40vh;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+}
+.clojure img:hover {
+    transform: scale(1.02);
+}
+.clojure a {
+    display: inline-block;
+    text-decoration: none;
+    color: #5CBC46;
+    font-weight: bold;
+    background-color: white;
+    padding: 10px 20px;
+    margin-left: 25px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+}
+.clojure a:hover {
+    background-color: #5CBC46;
+    color: white;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 12px rgba(0,0,0,0.3);
+}
+
+/* erlang */
+.erlang {
+    background-color: rgba(169, 5, 51, 0.8);
+    color: #323330;
+    padding: 5px 8px;
+    border-radius: 8px;
+    font-size: 0.9em;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    text-align: center;
+}
+.erlang:hover {
+    box-shadow: 0 0px 6px #A90533;
+    transform: translateY(-2px);
+    cursor: pointer;
+}
+.erlang span {
+    text-align: center;
+    color: #ffffff;
+    transition: all 0.4s ease;
+}
+.erlang span:hover {
+    color: #ffffffa7;
+}
+.erlang h2 {
+    font-size: 2em;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #e03263;
+    font-weight: 700;
+    line-height: 1.2;
+    transition: color 0.3s ease, transform 0.3s ease;
+    text-align: center;
+}
+.erlang h2:hover {
+    color: #A90533;
+    transform: scale(1.05);
+}
+.erlang p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    color: #ffffff;
+    transition: color 0.3s ease;
+    text-align: left;
+}
+.erlang p:hover {
+    color: #ffffffa7;
+}
+.erlang img {
+    width: 100%;
+    height: 40vh;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+}
+.erlang img:hover {
+    transform: scale(1.02);
+}
+.erlang a {
+    display: inline-block;
+    text-decoration: none;
+    color: #A90533;
+    font-weight: bold;
+    background-color: white;
+    padding: 10px 20px;
+    margin-left: 25px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+}
+.erlang a:hover {
+    background-color: #A90533;
+    color: white;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 12px rgba(0,0,0,0.3);
+}
+
+/* julia */
+.julia {
+    background-color: rgba(157, 100, 185, 0.8);
+    color: #323330;
+    padding: 5px 8px;
+    border-radius: 8px;
+    font-size: 0.9em;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    text-align: center;
+}
+.julia:hover {
+    box-shadow: 0 0px 6px #9D64B9;
+    transform: translateY(-2px);
+    cursor: pointer;
+}
+.julia span {
+    text-align: center;
+    color: #ffffff;
+    transition: all 0.4s ease;
+}
+.julia span:hover {
+    color: #ffffffa7;
+}
+.julia h2 {
+    font-size: 2em;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #722e94;
+    font-weight: 700;
+    line-height: 1.2;
+    transition: color 0.3s ease, transform 0.3s ease;
+    text-align: center;
+}
+.julia h2:hover {
+    color: #9D64B9;
+    transform: scale(1.05);
+}
+.julia p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    color: #ffffff;
+    transition: color 0.3s ease;
+    text-align: left;
+}
+.julia p:hover {
+    color: #ffffffa7;
+}
+.julia img {
+    width: 100%;
+    height: 40vh;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+}
+.julia img:hover {
+    transform: scale(1.02);
+}
+.julia a {
+    display: inline-block;
+    text-decoration: none;
+    color: #9D64B9;
+    font-weight: bold;
+    background-color: white;
+    padding: 10px 20px;
+    margin-left: 25px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+}
+.julia a:hover {
+    background-color: #9D64B9;
+    color: white;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 12px rgba(0,0,0,0.3);
+}
+
+.c {
+    background-color: #9D64B9;
+    color: #323330;
+    padding: 5px 8px;
+    border-radius: 8px;
+    font-size: 0.9em;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    text-align: center;
+}
+.c:hover {
+    box-shadow: 0 0px 6px #9D64B9;
+    transform: translateY(-2px);
+    cursor: pointer;
+}
+.c span {
+    text-align: center;
+    color: #ffffff;
+    transition: all 0.4s ease;
+}
+.c span:hover {
+    color: #ffffffa7;
+}
+.c h2 {
+    font-size: 2em;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #722e94;
+    font-weight: 700;
+    line-height: 1.2;
+    transition: color 0.3s ease, transform 0.3s ease;
+    text-align: center;
+}
+.c h2:hover {
+    color: #9D64B9;
+    transform: scale(1.05);
+}
+.c p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    color: #ffffff;
+    transition: color 0.3s ease;
+    text-align: left;
+}
+.c p:hover {
+    color: #ffffffa7;
+}
+.c img {
+    width: 100%;
+    height: 40vh;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+}
+.c img:hover {
+    transform: scale(1.02);
+}
+.c a {
+    display: inline-block;
+    text-decoration: none;
+    color: #9D64B9;
+    font-weight: bold;
+    background-color: white;
+    padding: 10px 20px;
+    margin-left: 25px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+}
+.c a:hover {
+    background-color: #9D64B9;
+    color: white;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 12px rgba(0,0,0,0.3);
+}
