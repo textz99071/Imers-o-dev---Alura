@@ -1,2 +1,30 @@
-💻 Projeto Guia do Programador
-Aplicação web intuitiva que funciona como um guia rápido sobre linguagens de programação, permitindo pesquisas inteligentes e exibição clara de informações como ano de criação, criador, história, características, logos oficiais e links externos. Desenvolvido com HTML, CSS e JavaScript, dados carregados de JSON local, interface responsiva, cards dinâmicos e modal descritivo. Criado durante a Imersão Dev da Alura, com apoio da IA Google Gemini, o projeto reforça aprendizado, organização e experiência prática no desenvolvimento front-end.
+                                                    💻 Projeto Guia do Programador
+
+Aplicação desenvolvida para ser um guia rápido, eficiente e intuitivo sobre linguagens de programação, permitindo realizar pesquisas inteligentes e visualizar informações detalhadas de forma clara, organizada e acessível. Criado com foco em utilidade, criatividade, eficácia e boa apresentação, pilares essenciais da Imersão Dev. 
+
+                                              📌 Sobre o projeto / About the project 
+
+O Guia do Programador é uma aplicação web criada para tornar a jornada de aprendizado em programação muito mais simples. A plataforma reúne informações completas sobre diversas linguagens, incluindo ano de criação, criador, história, características, logos oficiais, imagens e links externos para aprofundamento. Os dados são carregados diretamente de um arquivo JSON local, garantindo rapidez e flexibilidade na exibição das informações. O projeto foi desenvolvido com o objetivo de praticar HTML, CSS e JavaScript, explorando manipulação avançada do DOM, filtros de busca, renderização dinâmica, funcionalidade de modal, design responsivo e organização de dados. Cada parte do sistema foi construída com foco em clareza, boa experiência do usuário e usabilidade real. Além disso, o projeto foi criado com o apoio da IA Google Gemini durante a Imersão Dev – 10ª Edição, utilizando inteligência artificial para ideação, otimização de código e melhorias criativas. A combinação entre desenvolvimento manual e IA tornou o projeto mais eficiente, funcional e bem estruturado. 
+
+                                                  ✨ Funcionalidades / Features
+
+🔍 Busca inteligente por nome da linguagem 
+🧩 Cards dinâmicos com informações completas
+🖼️ Exibição de imagem + logo oficial 
+📜 Modal descritivo, com características e detalhes organizados
+🎨 Interface simples, moderna e limpa, com foco na experiência do usuário 
+⚡ Renderização rápida e dados carregados via JSON local 
+🤖 Construído com apoio da IA Google Gemini 
+
+                                                🛠️ Tecnologias utilizadas / Technologies used 
+  HTML5 
+  CSS3 
+  JavaScript (ES6+) 
+  JSON local Google 
+  Gemini (AI assistance)
+
+                                                           🏁 Conclusão
+
+Este projeto marcou uma etapa fundamental no meu aprendizado, permitindo aplicar conceitos essenciais do front-end, melhorar minha lógica, trabalhar com dados reais e desenvolver interfaces mais eficientes. O Guia do Programador é o resultado de experimentação, criatividade e prática contínua — e seguir evoluindo é o próximo passo.
+Além disso, a Imersão Dev da Alura teve um papel decisivo na realização deste projeto. As aulas práticas, o ritmo guiado, os desafios diários e a orientação focada em criatividade, utilidade e boa apresentação ajudaram a transformar uma simples ideia em uma aplicação completa, funcional e bem estruturada.
+Durante a imersão, pude aprender conceitos de forma clara, aplicar imediatamente no código e aprimorar meu projeto com técnicas que talvez eu não descobriria sozinho tão cedo. A combinação entre metodologia da Alura e o uso da IA do Google Gemini tornou possível criar algo realmente sólido, intuitivo e com potencial de destaque.
